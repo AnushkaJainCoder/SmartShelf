@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react"
-import DropDown from "./DropDown";
+// import DropDown from "./DropDown";
+import Book from "./Book";
 
 export default function SearchBook(){
     const [text, setText] = useState('');
@@ -15,15 +16,21 @@ export default function SearchBook(){
         <>
              <input type="text" value = {text} onChange={(e) => setText(e.target.value)}  placeholder="Search..."/>
              <button onClick={searchBookFilter}>Search</button>
-             <ul>
+             <ul style={{}}>
                 {books.map((b) =>(
 
                    <li key={b.id}>
-                    {b.volumeInfo.title}
-                    {b.volumeInfo.authors}
+                    <Book 
+                    b = {b} 
+                    title = {b.volumeInfo.title}
+                    author = {b.volumeInfo.authors}
+                    image = {b.volumeInfo.imageLinks.thumbnail}/>
+                    
+                    {/* {b.volumeInfo.title}
+                    {b.volumeInfo.authors} */}
                     {/* {b.imageLinks.thumbnail && } */}
-                    <img src={b.volumeInfo.imageLinks.thumbnail} />
-                    <DropDown item = {b}/>
+                    {/* <img src={b.volumeInfo.imageLinks.thumbnail} />
+                    <DropDown item = {b}/> */}
                     
                     
 
