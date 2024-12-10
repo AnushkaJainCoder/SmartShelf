@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react"
 // import DropDown from "./DropDown";
 import Book from "./Book";
+import '../index.css'
 // import { useNavigate } from "react-router-dom";
 
 export default function SearchBook(){
@@ -20,10 +21,10 @@ export default function SearchBook(){
            
              <input type="text" value = {text} onChange={(e) => setText(e.target.value)}  placeholder="Search..."/>
              <button onClick={searchBookFilter}>Search</button>
-             <ul style={{}}>
+             <div style={{}}>
                 {books.map((b) =>(
 
-                   <li key={b.id}>
+                   <p key={b.id}>
                     <Book 
                     b = {b} 
                     title = {b.volumeInfo.title}
@@ -38,9 +39,9 @@ export default function SearchBook(){
                     
                     
 
-                   </li>
+                   </p>
                 ))}
-             </ul>
+             </div>
    
         </>
     )

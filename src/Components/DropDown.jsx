@@ -4,7 +4,7 @@ export default function DropDown(){
 
     const [selectedOption, setSelectedOption] = useState();
     const handleChange = (e) =>{
-        setSelectedOption(e.target.value)
+        setSelectedOption(e.target.value )
     }
 
     return (

@@ -6,10 +6,11 @@ export default function Book({b, title, author, image}){
     return(
         
         <div className="card">
+             <img src={image} />
             <div>{title}</div>
             <div>{author}</div>
-            <img src={image} />
-            <DropDown item = {b} />
+           
+            {/* <DropDown item = {b} /> */}
         </div>
            
 

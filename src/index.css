@@ -1,10 +1,38 @@
-.card{
-  height: 100;
-  width: 50;
-  background-color: blue;
+/* Container for the book cards */
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 2fr));
+  gap: 106px;
+  justify-content: center;
 }
 
-ul{
-  height: 100;
-  width: 50;
+/* Individual book card */
+.card {
+  width: 100%;
+  height: 80%;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.2s;
+  /* margin-left: 20px; */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.card div {
+  /* margin: 8px 0; */
+  font-size: 16px;
+  color: #333;
 }

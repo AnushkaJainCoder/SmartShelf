@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react"
 import Book from "../Components/Book";
 import { useNavigate } from "react-router-dom";
+import '../index.css'
 
 export default function HomePage(){
 
@@ -34,18 +35,18 @@ export default function HomePage(){
             {/* <input type="text" value = {text} onChange={(e) => setText(e.target.value)}  placeholder="Search..."/> */}
              <button onClick={() => navigate('/search')}>Search</button>
              
-            <ul>
+             <div className="book-container">
                 {books.map((b)=>(
-                    <li key={b.id}>
+                    <p key={b.id}>
                     <Book 
                         b = {b} 
                         title = {b.volumeInfo.title}
                         author = {b.volumeInfo.authors}
                         image = {b.volumeInfo.imageLinks.thumbnail}/>
-                    </li>
+                    </p>
                 ))}
 
-            </ul>
+            </div>
         </>
     )
 }
