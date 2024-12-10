@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react"
+import DropDown from "./DropDown";
 
 export default function SearchBook({book}){
     const [text, setText] = useState('');
@@ -16,11 +17,13 @@ export default function SearchBook({book}){
              <button onClick={searchBookFilter}>Search</button>
              <ul>
                 {books.map((b) =>(
+
                    <li key={b.id}>
                     {b.volumeInfo.title}
                     {b.volumeInfo.authors}
                     {/* {b.imageLinks.thumbnail && } */}
                     <img src={b.volumeInfo.imageLinks.thumbnail} />
+                    <DropDown item = {b}/>
                     
                     
 
