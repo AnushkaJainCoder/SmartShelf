@@ -16,7 +16,7 @@ export default function HomePage(){
     useEffect(()=>{
         const fetchBooks = async() =>{
             // try{
-                const res = await axios.get('https://www.googleapis.com/books/v1/volumes?q=quilting');
+                const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=of`);
                 setBooks(res.data.items)
             // }
             // catch(err){

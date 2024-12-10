@@ -1,0 +1,1577 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 3230,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "n997zQEACAAJ",
+        "etag": "hjBY+LCtmFw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/n997zQEACAAJ",
+        "volumeInfo": {
+          "title": "Death",
+          "subtitle": "An Inside Story",
+          "authors": [
+            "Jaggi Vasudev (Sadhguru)"
+          ],
+          "publisher": "Penguin/Ananda",
+          "publishedDate": "2020",
+          "description": "Whether a believer or not, a devotee or an agnostic, an accomplished seeker or a simpleton, this is truly a book for all those who shall die!",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "0143450832"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9780143450832"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 0,
+          "printType": "BOOK",
+          "categories": [
+            "Philosophy"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=n997zQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=n997zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=n997zQEACAAJ&dq=all&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=n997zQEACAAJ&dq=all&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Death.html?hl=&id=n997zQEACAAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=n997zQEACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Whether a believer or not, a devotee or an agnostic, an accomplished seeker or a simpleton, this is truly a book for all those who shall die!"
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "MFCSCgAAQBAJ",
+        "etag": "7oWORvQHDgg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MFCSCgAAQBAJ",
+        "volumeInfo": {
+          "title": "\"Into All the World\"",
+          "subtitle": "The Great Commission: A Vindication and an Interpretation",
+          "authors": [
+            "Samuel Zwemer"
+          ],
+          "publisher": "Solid Christian Books",
+          "publishedDate": "1943",
+          "description": "“His name shall endure for ever: his name shall be continued as long as the sun: and men shall be blessed in him: all nations shall call him blessed. Blessed be the Lord God, the God of Israel, who only doeth wondrous things. And blessed be his glorious name for ever: and let the whole earth be filled with his glory; Amen, and Amen” (Psalm 72:17-19) The Great Commission which JESUS CHRIST gave to His apostles was latent in the promises and prophecies regarding the Messiah found in the Old Testament.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 180,
+          "printType": "BOOK",
+          "categories": [
+            "Religion"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=MFCSCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=MFCSCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=MFCSCgAAQBAJ&pg=PA29&dq=all&hl=&cd=2&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=MFCSCgAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MFCSCgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 396,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 277.2,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=MFCSCgAAQBAJ&rdid=book-MFCSCgAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 396000000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 277200000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Into_All_the_World-sample-pdf.acsm?id=MFCSCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=MFCSCgAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eall\u003c/b\u003e! No other religion has caught this idea of the just dying for the unjust, of the Son of GOD who loved us and gave Himself for us. There is sacrifice (even human sacrifices) in \u003cb\u003eall\u003c/b\u003e religions, yet none rise to the height of John 3:16&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "808jBQAAQBAJ",
+        "etag": "CTA5XT6jgE0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/808jBQAAQBAJ",
+        "volumeInfo": {
+          "title": "All In",
+          "authors": [
+            "Gabra Zackman"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2015-07-13",
+          "description": "Don’t miss the second installment of Gabra Zackman’s scorching new series. “Stop the wedding!” No bride wants to hear those words, least of all Susannah “Legs” Carter, one of the Bod Squad’s best agents. But when her colleague Jackson bursts in with news that her presumed-dead father may still be alive—and possibly a double agent—the vows are on hold and the Bod Squad hits the road. Jackson wants to help, but he’s a little distracted by Cajun cutie Lisa Bee, his closest coworker. They’ve always been friends, but there’s nothing like a little overseas danger to set sparks flying! As the two work to track a criminal mastermind, will they swap undercover work for under-the-covers play?",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781476789262"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1476789266"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 159,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.10.10.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=808jBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=808jBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=808jBQAAQBAJ&pg=PT12&dq=all&hl=&cd=3&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=808jBQAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=808jBQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 336.3,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 235.41,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=808jBQAAQBAJ&rdid=book-808jBQAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 336300000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 235410000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/All_In-sample-epub.acsm?id=808jBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=808jBQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eall\u003c/b\u003e my life for you . I have lived a life of risk and loneliness , hoping that you existed . I have held out for you , believing beyond \u003cb\u003eall\u003c/b\u003e possibility that there was a man who was my equal in strength , in soul , in heart . I have had&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ikxLEAAAQBAJ",
+        "etag": "cZaXCjc2yzI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ikxLEAAAQBAJ",
+        "volumeInfo": {
+          "title": "We're All in This Together",
+          "subtitle": "Creating a Team Culture of High Performance, Trust, and Belonging",
+          "authors": [
+            "Mike Robbins"
+          ],
+          "publisher": "Hay House, Inc",
+          "publishedDate": "2022-03-22",
+          "description": "Build trust and achieve high performance in your business by redefining team culture. Have you ever been on a team where the talent was strong, but the team wasn’t very good? On the flip side, have you ever been on a team where not every single member was a rock star, but something about the team just worked? In this book, corporate consultant Mike Robbins dives deep into the ways great businesses build trust, collaborate, and operate at their peak level. As an expert in teamwork, leadership, and emotional intelligence, Mike draws on more than 20 years of experience working with top companies like Google and Microsoft, as well as his baseball career with the Kansas City Royals. And, while each team and organization have their own unique challenges, goals, and dynamics, there are some universal qualities that allow teams to truly come together and thrive. The book’s core principles include facilitating an environment of psychological safety, fostering inclusion and belonging, addressing and navigating conflict, and maintaining a healthy balance of high expectations and empathy. Throughout, Mike shares powerful exercises and tools he’s successfully utilized in the keynote speeches, group sessions, and corporate retreats that he delivers, so that you and your team can communicate more authentically, give and receive feedback with skill, and create deeper connections. “Mike Robbins shares tangible techniques that leaders and teams can use to excel, backs up his ideas with important research, and provides a road map for creating a team environment of personal connection and optimal performance.” — Tom Rath, New York Times best-selling co-author of How Full is Your Bucket?",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781401965273"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "140196527X"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 217,
+          "printType": "BOOK",
+          "categories": [
+            "Business & Economics"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.4.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ikxLEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ikxLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=ikxLEAAAQBAJ&printsec=frontcover&dq=all&hl=&cd=4&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=ikxLEAAAQBAJ&dq=all&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/We_re_All_in_This_Together.html?hl=&id=ikxLEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/We_re_All_in_This_Together-sample-pdf.acsm?id=ikxLEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ikxLEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "In this book, corporate consultant Mike Robbins dives deep into the ways great businesses build trust, collaborate, and operate at their peak level."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "RiQZCwAAQBAJ",
+        "etag": "dCuOiplFv+4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/RiQZCwAAQBAJ",
+        "volumeInfo": {
+          "title": "Can I Have It All",
+          "subtitle": "Trials and Triumphs in a woman’s journey through the corporate landscape",
+          "authors": [
+            "Anuranjita Kumar"
+          ],
+          "publisher": "Bloomsbury Publishing",
+          "publishedDate": "2015-12-04",
+          "description": "Upcoming book with candid, emotive & intriguing narrative delving into personal experiences of a woman leader through her journey in corporate environment. The book, 'Can I have it all?' is written as a memoir of the author's evolving identity. Nuanced, poignant and powerful, it touches upon her struggles in the proverbial corporate jungle, juxtaposed with a heartwarming account of a mother balancing a healthy home and work life. It brings to life the dilemmas and challenges that women face through various stages of their lives such as education, marriage, maternity and mobility, as they aim to make it big in the corporate world. The career journey of an ordinary woman from a small town in India, 'Can I have it All?' is a compelling validation of how one can challenge social norms and stereotypes, around gender, race and other deep-rooted biases. It provides an honest insight to anyone who wishes to understand the elements that formulate parts of one's leadership journey and lends readers the courage to challenge existing paradigms that create a hindrance in furthering their careers. Covering themes such as working with senior stakeholders, challenging colleagues, navigating workplace politics, indulging in introspection and building a circle of trust with mentors, 'Can I have it All?' is every bit gripping as it is relevant for everyone, across cultures, geographies gender or age!",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9789385436581"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "9385436589"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 211,
+          "printType": "BOOK",
+          "categories": [
+            "Biography & Autobiography"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.6.6.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=RiQZCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=RiQZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=RiQZCwAAQBAJ&printsec=frontcover&dq=all&hl=&cd=5&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=RiQZCwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RiQZCwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 319,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 223.3,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=RiQZCwAAQBAJ&rdid=book-RiQZCwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 319000000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 223300000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Can_I_Have_It_All-sample-epub.acsm?id=RiQZCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Can_I_Have_It_All-sample-pdf.acsm?id=RiQZCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=RiQZCwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The book, &#39;Can I have it all?&#39; is written as a memoir of the author&#39;s evolving identity."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "tGRODwAAQBAJ",
+        "etag": "wFGjj2tem7s",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/tGRODwAAQBAJ",
+        "volumeInfo": {
+          "title": "THE COMPLETE PROVINCIAL LADY SERIES - All 5 Novels in One Edition (Illustrated Edition)",
+          "subtitle": "The Diary of a Provincial Lady, The Provincial Lady Goes Further, The Provincial Lady in America, The Provincial Lady in Russia & The Provincial Lady in Wartime",
+          "authors": [
+            "E. M. Delafield"
+          ],
+          "publisher": "e-artnow",
+          "publishedDate": "2017-08-07",
+          "description": "The Provincial Lady series is guaranteed to make you laugh by its witty take on the foibles of a young upper middle-class English woman living mostly in a Devon village of the 1930s. Excerpt: \"November 7th.—Plant the indoor bulbs. Just as I am in the middle of them, Lady Boxe calls. I say, untruthfully, how nice to see her, and beg her to sit down while I just finish the bulbs. Lady B. makes determined attempt to sit down in armchair where I have already placed two bulb-bowls and the bag of charcoal, is headed off just in time, and takes the sofa.\" (The Diary of a Provincial Lady) E. M. Delafield (1890-1943) was a prolific English author and is best known for her largely witty and autobiographical Provincial Lady Series, which took the form of a journal. TABLE OF CONTENTS: The Diary of a Provincial Lady The Provincial Lady Goes Further The Provincial Lady in America The Provincial Lady in Russia (I Visit The Soviets) The Provincial Lady in Wartime",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9788027202355"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "8027202353"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 546,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.6.6.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=tGRODwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=tGRODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=tGRODwAAQBAJ&pg=PT510&dq=all&hl=&cd=6&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=tGRODwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tGRODwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 83.24,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 83.24,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=tGRODwAAQBAJ&rdid=book-tGRODwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 83240000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 83240000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/THE_COMPLETE_PROVINCIAL_LADY_SERIES_All-sample-epub.acsm?id=tGRODwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/THE_COMPLETE_PROVINCIAL_LADY_SERIES_All-sample-pdf.acsm?id=tGRODwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=tGRODwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eAll\u003c/b\u003e You People&quot; have got to realise is that we must \u003cb\u003eall\u003c/b\u003e go on exactly as usual. If we are novelists, we must go on writing novels; if poets, write poetry just as before; if our line happens to be light journalism, then let it still be&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "boXyCwAAQBAJ",
+        "etag": "BqUaHQYDxBk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/boXyCwAAQBAJ",
+        "volumeInfo": {
+          "title": "PERSONAL POWER (All 12 Volumes)",
+          "subtitle": "Development, Cultivation & Manifestation of Personal Powers: Creative - Your Constructive Forces, Desire - Your Energizing Forces, Spiritual Power - The Infinite Fount, Positive Individuality and more",
+          "authors": [
+            "William Walker Atkinson"
+          ],
+          "publisher": "e-artnow",
+          "publishedDate": "2016-03-03",
+          "description": "This carefully crafted ebook: \"PERSONAL POWER (All 12 Volumes)” is formatted for your eReader with a functional and detailed table of contents: Personal Power - Your Master Self Creative Power - Your Constructive Forces Desire Power - Your Energizing Forces Faith Power - Your Inspirational Forces Will Power - Your Dynamic Forces Subconscious Power - Your Secret Forces Spiritual Power - The Infinite Fount Thought Power - Radio-Mentalism Perceptive Power - The Art of Observation Reasoning Power - Practical Logic Character Power - Positive Individuality Regenerative Power or Vital Rejuvenation This book is devoted to the subject of the development, cultivation and manifestation of Personal Power— Personal Power in all its phases, aspects and modes of manifestation and expression. \"Personal Power,” as understood and taught in this book, may be defined as: \"The ability or strength possessed by the human individual, by which he does, or may, accomplish desired results in an efficient manner, along the lines of physical, mental, and spiritual effort and endeavor.” William Walker Atkinson (1862-1932) was a prolific writer. His works treat themes related to the mental world, occultism, divination, psychic reality, and mankind's nature.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9788026848745"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "8026848748"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 1423,
+          "printType": "BOOK",
+          "categories": [
+            "Self-Help"
+          ],
+          "averageRating": 5,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.6.7.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=boXyCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=boXyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=boXyCwAAQBAJ&pg=PT199&dq=all&hl=&cd=7&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=boXyCwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=boXyCwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 167.31,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 117.12,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=boXyCwAAQBAJ&rdid=book-boXyCwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 167310000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 117120000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/PERSONAL_POWER_All_12_Volumes-sample-epub.acsm?id=boXyCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/PERSONAL_POWER_All_12_Volumes-sample-pdf.acsm?id=boXyCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=boXyCwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eAll\u003c/b\u003e science consists in describing forms, and tracing their changes. \u003cb\u003eAll\u003c/b\u003e differences that we can scientifically comprehend are the forms of matter or energy. \u003cb\u003eAll\u003c/b\u003e that we can do or try to do is by molding and remolding things. Forms&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "aO2jDgAAQBAJ",
+        "etag": "EfHzxYXmK3g",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/aO2jDgAAQBAJ",
+        "volumeInfo": {
+          "title": "Why Not Have It All",
+          "subtitle": "A Spiritual Guide to Balance and Fulfillment",
+          "authors": [
+            "Mrs. Bonita Andrea Shelby"
+          ],
+          "publisher": "FriesenPress",
+          "publishedDate": "2017-04-03",
+          "description": "In \"Why Not Have It All\", we are shown how best to navigate the turbulent waters of modern life. As a woman, this can be both complex and demanding, for there has been a sea change in societal mores which has, in many instances, left us in newly uncharted waters. Bonita Shelby is a woman who has, with God’s help, managed to find her way and wants to act as a beacon to others—keeping us off the rocks that might otherwise capsize us. The shifting demands of love, marriage, children, education, and employment need not overwhelm us. Indeed, when balanced they can form the very pillars of a life of fulfilment through God’s favor and grace. \"Why Not Have It All\" presents a wealth of practical advice, for women(of all ages) that is backed up by scripture, and set against a number of compelling biographical glimpses into the life of Bonita herself. Personal and powerful, it is a work that is sure to inspire and instruct likeminded readers.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781460295717"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1460295714"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 206,
+          "printType": "BOOK",
+          "categories": [
+            "Religion"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=aO2jDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=aO2jDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=aO2jDgAAQBAJ&pg=PA4&dq=all&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=aO2jDgAAQBAJ&dq=all&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Why_Not_Have_It_All.html?hl=&id=aO2jDgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Why_Not_Have_It_All-sample-pdf.acsm?id=aO2jDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=aO2jDgAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eall\u003c/b\u003e ? No matter what you may have gone through in life to get to this day , Why not have it \u003cb\u003eall\u003c/b\u003e ? Can you obtain \u003cb\u003eall\u003c/b\u003e of the blessings that God has prepared for you ? Do you deserve God&#39;s goodness ? The answer is , &quot; Yes &quot; you deserve&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "b_2gDwAAQBAJ",
+        "etag": "VFj/4d9ZMN0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/b_2gDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Not all the King's Men",
+          "subtitle": "Inequality as a Political Instrument in Ankole, Uganda",
+          "authors": [
+            "Martin R. Doornbos"
+          ],
+          "publisher": "Walter de Gruyter GmbH & Co KG",
+          "publishedDate": "2019-07-08",
+          "description": "No detailed description available for \"Not all the King's Men\".",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9783110879254"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "3110879255"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 248,
+          "printType": "BOOK",
+          "categories": [
+            "Language Arts & Disciplines"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=b_2gDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=b_2gDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=b_2gDwAAQBAJ&pg=PA57&dq=all&hl=&cd=9&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=b_2gDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=b_2gDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 11776.58,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 11776.58,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=b_2gDwAAQBAJ&rdid=book-b_2gDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 11776580000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 11776580000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Not_all_the_King_s_Men-sample-pdf.acsm?id=b_2gDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=b_2gDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eall\u003c/b\u003e cattle belonged to the Omugabe and he &#39; gave &#39; it to Bahima in reward for their loyalty , particularly in times ... \u003cb\u003eall\u003c/b\u003e cattle , and as other senior chiefs similarly entered into such clientship contracts , this contradicts the&nbsp;..."
+        }
+      },
+      {
+      "kind": "books#volumes",
+      "totalItems": 1995,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "ykh-CMyoo48C",
+          "etag": "cYVLZxroN7A",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/ykh-CMyoo48C",
+          "volumeInfo": {
+            "title": "The Bible: Translated According to the Ebrew and Greeke, and Conferred with the Best Translations in Diuers Languages. With Most Profitable Annotations Vpon All the Hard Places, and Other Things of Great Importance, as May Appeare in the Epistle to the Reader. And Also a Most Profitable Concordance for the Readie Finding Out of Any Thing in the Same Conteined",
+            "publishedDate": "1599",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "BL:A0021769843"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 868,
+            "printType": "BOOK",
+            "categories": [
+              "Bible"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.5.4.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=ykh-CMyoo48C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=ykh-CMyoo48C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=ykh-CMyoo48C&pg=PA294&dq=to&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=ykh-CMyoo48C&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ykh-CMyoo48C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=ykh-CMyoo48C&rdid=book-ykh-CMyoo48C&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/The_Bible_Translated_According_to_the_Eb.epub?id=ykh-CMyoo48C&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ykh-CMyoo48C&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e walke in my lawes , which I haue let befoze yon , 5 And \u003cb\u003eto\u003c/b\u003e heare the words of my feruants the Prophets , whom I fent vnto you , both rifing up earely , and fending them , and will not obey them , 6 Then will I make this House like&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "WcvTAyHRYnUC",
+          "etag": "42LdoiSkZ3Q",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/WcvTAyHRYnUC",
+          "volumeInfo": {
+            "title": "Chile of To-day",
+            "subtitle": "Its Commerce, Its Production and Its Resources",
+            "publishedDate": "1907",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "MINN:31951002212487D"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 594,
+            "printType": "BOOK",
+            "categories": [
+              "Chile"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.8.8.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=WcvTAyHRYnUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=WcvTAyHRYnUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=WcvTAyHRYnUC&pg=PA173&dq=to&hl=&cd=2&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=WcvTAyHRYnUC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WcvTAyHRYnUC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=WcvTAyHRYnUC&rdid=book-WcvTAyHRYnUC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/Chile_of_To_day.epub?id=WcvTAyHRYnUC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=WcvTAyHRYnUC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e San Marcos . San Marcos \u003cb\u003eto\u003c/b\u003e Illapel .. 43 1.00 1,424,727 128 1.00 5,120,000 Vilos \u003cb\u003eto\u003c/b\u003e Ligua . Osorno \u003cb\u003eto\u003c/b\u003e Rio Negro .... Rio Negro \u003cb\u003eto\u003c/b\u003e Puerto Mont .. Ancud \u003cb\u003eto\u003c/b\u003e Castro ... 120 1.00 4,800,000 27.900 1.68 1,300,000 100 1.68 8,000,000 100&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Bpw5b6rHjnoC",
+          "etag": "+GdLzlI2F/k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Bpw5b6rHjnoC",
+          "volumeInfo": {
+            "title": "Lectures to the Working Classes",
+            "authors": [
+              "Gordon Calthrop"
+            ],
+            "publishedDate": "1865",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "BL:A0022108884"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 242,
+            "printType": "BOOK",
+            "categories": [
+              "Conduct of life"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.5.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Bpw5b6rHjnoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Bpw5b6rHjnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Bpw5b6rHjnoC&pg=PA73&dq=to&hl=&cd=3&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=Bpw5b6rHjnoC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Bpw5b6rHjnoC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=Bpw5b6rHjnoC&rdid=book-Bpw5b6rHjnoC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/Lectures_to_the_Working_Classes.epub?id=Bpw5b6rHjnoC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Bpw5b6rHjnoC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e them that were bound - that voice is about \u003cb\u003eto\u003c/b\u003e break out into some glad , gentle Christmas carol of thanksgiving and praise . It is a beautiful little picture , and may well serve \u003cb\u003eto\u003c/b\u003e endear \u003cb\u003eto\u003c/b\u003e us the graceful German custom of the&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "SXbQ4WUkSCYC",
+          "etag": "Om4fVfIB/tA",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/SXbQ4WUkSCYC",
+          "volumeInfo": {
+            "title": "From Milton to Tennyson",
+            "subtitle": "Masterpieces of English Poetry",
+            "authors": [
+              "Louis Du Pont Syle"
+            ],
+            "publishedDate": "1896",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "UIUC:30112069170766"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 488,
+            "printType": "BOOK",
+            "categories": [
+              "English poetry"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.5.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=SXbQ4WUkSCYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=SXbQ4WUkSCYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=SXbQ4WUkSCYC&pg=RA1-PA130&dq=to&hl=&cd=4&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=SXbQ4WUkSCYC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SXbQ4WUkSCYC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=SXbQ4WUkSCYC&rdid=book-SXbQ4WUkSCYC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/From_Milton_to_Tennyson.epub?id=SXbQ4WUkSCYC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=SXbQ4WUkSCYC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e have known , and who are in nowise above the passions and prejudices of their age and nation . \u003cb\u003eTo\u003c/b\u003e these imaginary poets must be ascribed some blunders which are so obvious that it is unnecessary \u003cb\u003eto\u003c/b\u003e point them out . The real blunder&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "jBLxgapwUvQC",
+          "etag": "wTOryENLYyQ",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/jBLxgapwUvQC",
+          "volumeInfo": {
+            "title": "From Poverty to Power",
+            "subtitle": "The Path to Prosperity and the Way of Peace",
+            "authors": [
+              "James Allen"
+            ],
+            "publishedDate": "1907",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "UCI:31970001003018"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 184,
+            "printType": "BOOK",
+            "categories": [
+              "New Thought"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.5.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=jBLxgapwUvQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=jBLxgapwUvQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=jBLxgapwUvQC&pg=RA1-PA69&dq=to&hl=&cd=5&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=jBLxgapwUvQC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=jBLxgapwUvQC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=jBLxgapwUvQC&rdid=book-jBLxgapwUvQC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/From_Poverty_to_Power.epub?id=jBLxgapwUvQC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=jBLxgapwUvQC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e enter into the Infinite , is \u003cb\u003eto\u003c/b\u003e become one with the Eternal . \u003cb\u003eTo\u003c/b\u003e centre one&#39;s life in the Great Law of Love is \u003cb\u003eto\u003c/b\u003e enter into rest , harmony , peace . \u003cb\u003eTo\u003c/b\u003e refrain from all participation in evil and discord ; \u003cb\u003eto\u003c/b\u003e cease from all&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "gzhD6yRJaqkC",
+          "etag": "gPwPOIK9ooY",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/gzhD6yRJaqkC",
+          "volumeInfo": {
+            "title": "Man mortal: being a reply to Mr. F. W. Grant's “Life and Immortality,” etc",
+            "authors": [
+              "Robert ROBERTS (Christadelphian.)"
+            ],
+            "publishedDate": "1875",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "BL:A0022673926"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 130,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.6.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=gzhD6yRJaqkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=gzhD6yRJaqkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=gzhD6yRJaqkC&pg=PA17&dq=to&hl=&cd=6&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=gzhD6yRJaqkC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=gzhD6yRJaqkC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=gzhD6yRJaqkC&rdid=book-gzhD6yRJaqkC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/Man_mortal_being_a_reply_to_Mr_F_W_Grant.epub?id=gzhD6yRJaqkC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=gzhD6yRJaqkC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e be given by Christ at his coming as a house brought from heaven , how unskilful \u003cb\u003eto\u003c/b\u003e construe his figure literally , and extract from it a declaration subversive of his hope ! But Mr. Grant comes boldly \u003cb\u003eto\u003c/b\u003e the question : &quot; What&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "9h4ouWprrrwC",
+          "etag": "yioaqYzmO7s",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/9h4ouWprrrwC",
+          "volumeInfo": {
+            "title": "Sciences Pertaining to Civil Engineering",
+            "authors": [
+              "International library of technology"
+            ],
+            "publishedDate": "1906",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "UIUC:30112066560332"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 334,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.6.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=9h4ouWprrrwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=9h4ouWprrrwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=9h4ouWprrrwC&pg=RA3-PA7&dq=to&hl=&cd=7&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=9h4ouWprrrwC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9h4ouWprrrwC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=9h4ouWprrrwC&rdid=book-9h4ouWprrrwC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/Sciences_Pertaining_to_Civil_Engineering.epub?id=9h4ouWprrrwC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=9h4ouWprrrwC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e another , and the same velocity can have different values according \u003cb\u003eto\u003c/b\u003e the condition of the objects \u003cb\u003eto\u003c/b\u003e which it is referred . Thus , when a locomotive is running , the velocity of the piston with respect \u003cb\u003eto\u003c/b\u003e the cylinder in which&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "ay5NMwyoqXQC",
+          "etag": "RqgWL85oYdo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/ay5NMwyoqXQC",
+          "volumeInfo": {
+            "title": "The Descent of Man, and Selection in Relation to Sex ... Second Edition, Revised and Augmented, with Illustrations. Tenth Thousand",
+            "authors": [
+              "Charles Darwin"
+            ],
+            "publishedDate": "1874",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "BL:A0022039328"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 712,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.7.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=ay5NMwyoqXQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=ay5NMwyoqXQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=ay5NMwyoqXQC&pg=PA258&dq=to&hl=&cd=8&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=ay5NMwyoqXQC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ay5NMwyoqXQC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=ay5NMwyoqXQC&rdid=book-ay5NMwyoqXQC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/The_Descent_of_Man_and_Selection_in_Rela.epub?id=ay5NMwyoqXQC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ay5NMwyoqXQC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "Charles Darwin. amount \u003cb\u003eto\u003c/b\u003e 36,272 , and the females \u003cb\u003eto\u003c/b\u003e 33,128 , or as 109.49 \u003cb\u003eto\u003c/b\u003e 100. The males under seventeen years amounted \u003cb\u003eto\u003c/b\u003e 10,773 , and the females under the same age \u003cb\u003eto\u003c/b\u003e 9593 , or as 112-3 \u003cb\u003eto\u003c/b\u003e 100 . From the census of 1872 , the&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "UPierqnEcdYC",
+          "etag": "hQ9VGa5Wrrk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UPierqnEcdYC",
+          "volumeInfo": {
+            "title": "University of Chicago Contributions to Philosophy",
+            "publishedDate": "1897",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "UCLA:31158008829284"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 26,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.4.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UPierqnEcdYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UPierqnEcdYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UPierqnEcdYC&pg=PA19&dq=to&hl=&cd=9&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=UPierqnEcdYC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UPierqnEcdYC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=UPierqnEcdYC&rdid=book-UPierqnEcdYC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/University_of_Chicago_Contributions_to_P.epub?id=UPierqnEcdYC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UPierqnEcdYC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e the truth , and who glories in his ability \u003cb\u003eto\u003c/b\u003e carry civilization - not merely \u003cb\u003eto\u003c/b\u003e carry it , but \u003cb\u003eto\u003c/b\u003e carry it Thus another swing in the rhythm of theory and practice begins . How does this concern us as philosophers ? For the world it&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "i8LMMgjH5uoC",
+          "etag": "T/ndcngQzhg",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/i8LMMgjH5uoC",
+          "volumeInfo": {
+            "title": "Visits to Miss Macpherson's three homes for boys and girls in Canada",
+            "authors": [
+              "Alfred Millard William CHRISTOPHER"
+            ],
+            "publishedDate": "1872",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "BL:A0022062904"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 16,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.3.0.full.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=i8LMMgjH5uoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=i8LMMgjH5uoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=i8LMMgjH5uoC&pg=PP3&dq=to&hl=&cd=10&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=i8LMMgjH5uoC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=i8LMMgjH5uoC"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=i8LMMgjH5uoC&rdid=book-i8LMMgjH5uoC&rdot=1&source=gbs_api"
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false,
+              "downloadLink": "http://books.google.co.in/books/download/Visits_to_Miss_Macpherson_s_three_homes.epub?id=i8LMMgjH5uoC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=i8LMMgjH5uoC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+            "textSnippet": "... \u003cb\u003eto\u003c/b\u003e arouse the the snow in their ter was 15 degrees ce roaring flames , wind , gutted it in given until ten mpossible . They was a little boy , ey had been very through life . It He was y use . dren , but did not the house being 1 the&nbsp;..."
+          }
+        }
+      ,
+      {
+        "kind": "books#volume",
+        "id": "_OIDAwAAQBAJ",
+        "etag": "nm37i0HoJ2s",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_OIDAwAAQBAJ",
+        "volumeInfo": {
+          "title": "All I want is you",
+          "authors": [
+            "Angela Barresi"
+          ],
+          "publisher": "Youcanprint",
+          "publishedDate": "2014-02-21",
+          "description": "“All I Want Is You” is a U2 fan’s “music story”. It’s about her love for the band’s music and for the men behind the musicians, admiring their keen intelligence, their humanitarian principles and moral values . The book is a collection of articles from the author, Angela Barresi, published online for the Italian website U2360GRADI.IT, for which she has been a contributor for many years, writing for the column “360Pink”, and giving readers a female’s point of view of the band. The idea of these articles comes from a desire to share experiences and feelings that great music can inspire among all the readers. Men and women of all ages, backgrounds and cultures all feel the same passion for this band. U2 achieve in bringing together people and generations that otherwise wouldn’t have such a clear musical identity.An English version of the book was created In order to share opinions and feelings about the band outside the Italian boundaries.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9788891133458"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "8891133450"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 115,
+          "printType": "BOOK",
+          "categories": [
+            "Music"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.5.7.0.preview.3",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=_OIDAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=_OIDAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=_OIDAwAAQBAJ&pg=PA1977&dq=all&hl=&cd=10&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=_OIDAwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_OIDAwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 232.2,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 162.54,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=_OIDAwAAQBAJ&rdid=book-_OIDAwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 232200000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 162540000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=_OIDAwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... \u003cb\u003eall\u003c/b\u003e been “ Ragazzi del Muretto ” , kids hanging out with friends , sticking around \u003cb\u003eall\u003c/b\u003e the time , sharing joy and sorrow , in good times and in bad times , feeling \u003cb\u003eall\u003c/b\u003e the same , although our backgrounds are \u003cb\u003eall\u003c/b\u003e different and we \u003cb\u003eall\u003c/b\u003e&nbsp;..."
+        }
+    }
+      
+    ]
+}
+    ]
+}
