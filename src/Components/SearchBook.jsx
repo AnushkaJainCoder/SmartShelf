@@ -2,10 +2,12 @@ import axios from "axios";
 import { useState } from "react"
 // import DropDown from "./DropDown";
 import Book from "./Book";
+import { useNavigate } from "react-router-dom";
 
 export default function SearchBook(){
     const [text, setText] = useState('');
     const [books, setBooks] = useState([]);
+    const navigate = useNavigate();
 
     const searchBookFilter = async() =>{
         const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${text}`)
@@ -14,6 +16,8 @@ export default function SearchBook(){
     // const [books, setBooks] = 
     return (
         <>
+         {/* <button onClick={() => navigate('/')}>Back to shelf</button> */}
+           
              <input type="text" value = {text} onChange={(e) => setText(e.target.value)}  placeholder="Search..."/>
              <button onClick={searchBookFilter}>Search</button>
              <ul style={{}}>
