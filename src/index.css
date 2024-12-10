@@ -1,14 +1,13 @@
-/* Container for the book cards */
+
 .book-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 30px; /* Adjust this value to control the space between rows and columns */
   justify-content: center;
 }
 
-/* Individual book card */
 .card {
-  width: 60%;
+  width: 70%;
   height: 80%;
   border: 1px solid #ccc;
   padding: 16px;
