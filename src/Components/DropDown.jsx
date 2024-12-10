@@ -1,4 +1,4 @@
-export default function DropDown({item}){
+export default function DropDown(){
     return (
         <>
             <select>

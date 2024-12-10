@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react"
 import DropDown from "./DropDown";
 
-export default function SearchBook({book}){
+export default function SearchBook(){
     const [text, setText] = useState('');
     const [books, setBooks] = useState([]);
 
