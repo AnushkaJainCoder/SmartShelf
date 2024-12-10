@@ -1,16 +1,18 @@
 import DropDown from "./DropDown";
+import '../index.css'
 
 
 export default function Book({b, title, author, image}){
     return(
-        <>
-            {title}
-            {author}
-            {/* {b.imageLinks.thumbnail && } */}
+        
+        <div className="card">
+            <div>{title}</div>
+            <div>{author}</div>
             <img src={image} />
-            {/* <DropDown item = {b}/> */}
             <DropDown item = {b} />
+        </div>
+           
 
-        </>
+        
     )
 }
