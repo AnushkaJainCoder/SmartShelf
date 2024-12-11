@@ -42,10 +42,14 @@ export default function SearchBook() {
         
     }
 
+    const result = 'Result: ' + text;
+
     return (
         <>
             <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Search..." />
             <button onClick={searchBookFilter}>Search</button>
+            <h2 className="result">{result}</h2>
+            {/* <h1>behrfh</h1> */}
             <div className="book-container">
                 {filterbooks.map((b) => {
                     const volumeInfo = b.volumeInfo || {};

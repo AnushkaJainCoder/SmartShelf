@@ -12,7 +12,7 @@ export default function DropDown(){
         <>
         <div className="dropdown">
             <select value={selectedOption} onChange={handleChange} className="dropdown-select">
-                <option ><span className="icon"  style={}>▼</span></option>
+                <option ><span className="icon"  >▼</span></option>
                 <option >Want to read</option>
                 <option >Read</option>
                 <option >None</option>
