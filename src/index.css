@@ -23,13 +23,55 @@
 }
 
 .card img {
-  max-width: 100%;
-  height: auto;
+  max-width: 70%;
+  height: 70%;
   border-radius: 4px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .card div {
   font-size: 16px;
   color: #333;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: -30px;
+  margin-bottom: 10px;
+  
+}
+
+.dropdown-select {
+  appearance: none;
+  background-color: #2db82d;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.dropdown-select:focus {
+  outline: none;
+}
+
+.dropdown-select::after {
+  content: '▼';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+}
+
+.icon{
+  font-size: 4px;
 }

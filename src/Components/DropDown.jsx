@@ -11,9 +11,8 @@ export default function DropDown(){
     return (
         <>
         <div className="dropdown">
-            <select >
-                <option value={selectedOption} onChange={handleChange}>,</option>
-                <option >Currently reading.</option>
+            <select value={selectedOption} onChange={handleChange} className="dropdown-select">
+                <option ><span className="icon"  style={}>▼</span></option>
                 <option >Want to read</option>
                 <option >Read</option>
                 <option >None</option>
