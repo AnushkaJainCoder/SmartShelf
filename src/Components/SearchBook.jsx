@@ -38,7 +38,7 @@ export default function SearchBook() {
         });
         setFilterBooks(fb);
         // const(set)
-        console.log(filterbooks);
+        // console.log(filterbooks);
         
     }
 
@@ -46,7 +46,7 @@ export default function SearchBook() {
         <>
             <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Search..." />
             <button onClick={searchBookFilter}>Search</button>
-            <div style={{}}>
+            <div className="book-container">
                 {filterbooks.map((b) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
