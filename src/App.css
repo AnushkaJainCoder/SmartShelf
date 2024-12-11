@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+body{
+  /* background-color: black; */
+  background: url('https://media.istockphoto.com/id/856400416/photo/candle-in-candlestick-burning-and-old-wooden-box-and-on-dark-and-smoked-background.jpg?s=612x612&w=0&k=20&c=5uMeYnJ1sHnctR9hV1jbzyOyQQFCLhLB8YruqSk0Wss=');
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

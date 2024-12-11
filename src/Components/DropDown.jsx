@@ -1,33 +1,39 @@
-import { useState } from "react";
+import { createContext, useState } from "react";
 import '../index.css';
+
+export const BookShelfContext = createContext();
 
 export default function DropDown({book}){
 
     const [selectedOption, setSelectedOption] = useState();
-    const wtr = [];
-    const read = [];
-    const curr = [];
+    // const wtr = [];
+    // const read = [];
+    // const curr = [];
+
+    // const [wtr, setwtr] = useState([]);
+    // const [read, setread] = useState([]);
+    // const [curr, setcurr] = useState([]);
+    
 
 
-    if(selectedOption === 'Want to read'){
-        wtr.push(book);
-    }
-    else if(selectedOption === 'Read'){
-        read.push(book);
-    }
-    else if(selectedOption === 'Currently Reading'){
-        curr.push(book);
-    }
+    // if(selectedOption === 'Want to read'){
+    //     setwtr((prev) => [...prev, book]);
+    // }
+    // else if(selectedOption === 'Read'){
+    //     setread((prev) => [...prev, book]);
+    // }
+    // else if(selectedOption === 'Currently Reading'){
+    //     // curr.push(book);
+    //     setcurr((prev) => [...prev, book]);
+    // }
     
     const handleChange = (e) =>{
         setSelectedOption(e.target.value )
         console.log(selectedOption);
         
-        console.log(wtr);
-        console.log(read);
-        console.log(curr);
-        
-        
+        // console.log(wtr);
+        // console.log(read);
+        // console.log(curr);       
     }
 
     return (

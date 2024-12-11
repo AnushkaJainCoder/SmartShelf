@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useEffect, useState } from "react"
 import Book from "../Components/Book";
 // import from "./"
@@ -62,7 +61,7 @@ export default function HomePage(){
 
     return (
         <>
-            <h1>Available books</h1>
+            <h1 style={{color:"aliceblue"}}>Available books</h1>
             {/* <input type="text" value = {text} onChange={(e) => setText(e.target.value)}  placeholder="Search..."/> */}
              <button onClick={() => navigate('/search')}>Search</button>
              

@@ -2,19 +2,20 @@
 .book-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0px; /* Adjust this value to control the space between rows and columns */
+  gap: 5px; 
   justify-content: center;
+  /* padding: 10px 30px; */
 }
 
 .card {
   width: 70%;
   height: 80%;
   /* border: 1px solid #ccc; */
-  padding: 16px;
+  padding: 10px;
   border-radius: 8px;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   text-align: center;
-  background-color: #fff;
+  background-color: #847d9f;
   transition: transform 0.2s;
 }
 
