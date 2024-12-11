@@ -4,6 +4,7 @@ import Book from "../Components/Book";
 // import from "./"
 import { useNavigate } from "react-router-dom";
 import '../index.css'
+// C:\Users\anushka.jain\Desktop\smartshelf\public\data.json
 // import data from '../data/data.json';
 // import data from '../data';
 // import 
@@ -19,9 +20,11 @@ export default function HomePage(){
 
     
     useEffect(()=>{
-        fetch('data.json')
+        fetch('/data.json')
         .then(res => res.json())
-        .then(books => setBooks(books));
+        .then(data => setBooks(data.items));
+        console.log(books);
+        
         // const fetchBooks = async() =>{
         //     // try{
         //         // const res =await fetch('/data.json')
@@ -49,15 +52,27 @@ export default function HomePage(){
              <button onClick={() => navigate('/search')}>Search</button>
              
              <div className="book-container">
-                {books.items.map((b)=>(
-                    <p key={b.id}>
-                    <Book 
+             {books.map(b =>(
+                <p key={b.id}>
+                    {b.id}
+                    {/* <Book 
                         b = {b} 
                         title = {b.volumeInfo.title }
                         author = {b.volumeInfo.authors}
-                        image = {b.volumeInfo.imageLinks.thumbnail}/>
-                    </p>
-                ))}
+                        image = {b.volumeInfo.imageLinks.thumbnail}/> */}
+                    
+                </p>
+             ))}
+                {/* {books.items.map((b)=>(
+                    <p key={b.id}> */}
+                        {/* {b.volumeInfo.authors} */}
+                    {/* <Book 
+                        b = {b} 
+                        title = {b.volumeInfo.title }
+                        author = {b.volumeInfo.authors}
+                        image = {b.volumeInfo.imageLinks.thumbnail}/> */}
+                    {/* </p>
+                ))} */}
 
             </div>
         </>
