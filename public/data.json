@@ -4,6 +4,1666 @@
     "items": [
       {
         "kind": "books#volume",
+        "id": "r88NdErN1pkC",
+        "etag": "Yvn6SI2icA4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/r88NdErN1pkC",
+        "volumeInfo": {
+          "title": "Horror and the Horror Film",
+          "authors": [
+            "Bruce F. Kawin"
+          ],
+          "publisher": "Anthem Press",
+          "publishedDate": "2012",
+          "description": "Horror films can be profound fables of human nature and important works of art, yet many people dismiss them out of hand. 'Horror and the Horror Film' conveys a mature appreciation for horror films along with a comprehensive view of their narrative strategies, their relations to reality and fantasy and their cinematic power. The volume covers the horror film and its subgenres - such as the vampire movie - from 1896 to the present. It covers the entire genre by considering every kind of monster in it, including the human.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780857284495"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0857284495"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 269,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=r88NdErN1pkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=r88NdErN1pkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=r88NdErN1pkC&printsec=frontcover&dq=horror&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=r88NdErN1pkC&dq=horror&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Horror_and_the_Horror_Film.html?hl=&id=r88NdErN1pkC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_and_the_Horror_Film-sample-pdf.acsm?id=r88NdErN1pkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=r88NdErN1pkC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The volume covers the horror film and its subgenres - such as the vampire movie - from 1896 to the present. It covers the entire genre by considering every kind of monster in it, including the human."
+        }
+      },
+      
+      {
+        "kind": "books#volume",
+        "id": "WwN4BgAAQBAJ",
+        "etag": "XvbBlo/PGDw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/WwN4BgAAQBAJ",
+        "volumeInfo": {
+          "title": "Charlotte's Web",
+          "authors": [
+            "E. B. White"
+          ],
+          "publisher": "HarperCollins",
+          "publishedDate": "2015-03-17",
+          "description": "Don’t miss one of America’s top 100 most-loved novels, selected by PBS’s The Great American Read. This beloved book by E. B. White, author of Stuart Little and The Trumpet of the Swan, is a classic of children's literature that is \"just about perfect.\" Illustrations in this ebook appear in vibrant full color on a full-color device and in rich black-and-white on all other devices. Some Pig. Humble. Radiant. These are the words in Charlotte's Web, high up in Zuckerman's barn. Charlotte's spiderweb tells of her feelings for a little pig named Wilbur, who simply wants a friend. They also express the love of a girl named Fern, who saved Wilbur's life when he was born the runt of his litter. E. B. White's Newbery Honor Book is a tender novel of friendship, love, life, and death that will continue to be enjoyed by generations to come. It contains illustrations by Garth Williams, the acclaimed illustrator of E. B. White's Stuart Little and Laura Ingalls Wilder's Little House series, among many other books. Whether enjoyed in the classroom or for homeschooling or independent reading, Charlotte's Web is a proven favorite.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780062406781"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0062406787"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 196,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Fiction"
+          ],
+          "averageRating": 4.5,
+          "ratingsCount": 13,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.7.6.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=WwN4BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=WwN4BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=WwN4BgAAQBAJ&printsec=frontcover&dq=web&hl=&cd=1&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=WwN4BgAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WwN4BgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 571.72,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 285.86,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=WwN4BgAAQBAJ&rdid=book-WwN4BgAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 571720000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 285860000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Charlotte_s_Web-sample-epub.acsm?id=WwN4BgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=WwN4BgAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "&quot; Illustrations in this ebook appear in vibrant full color on a full-color device and in rich black-and-white on all other devices. Some Pig. Humble. Radiant. These are the words in Charlotte&#39;s Web, high up in Zuckerman&#39;s barn."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ZjszEAAAQBAJ",
+        "etag": "n8JZXT3/qa8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ZjszEAAAQBAJ",
+        "volumeInfo": {
+          "title": "The Design of Web APIs",
+          "authors": [
+            "Arnaud Lauret"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2019-10-08",
+          "description": "Summary The Design of Web APIs is a practical, example-packed guide to crafting extraordinary web APIs. Author Arnaud Lauret demonstrates fantastic design principles and techniques you can apply to both public and private web APIs. About the technology An API frees developers to integrate with an application without knowing its code-level details. Whether you’re using established standards like REST and OpenAPI or more recent approaches like GraphQL or gRPC, mastering API design is a superskill. It will make your web-facing services easier to consume and your clients—internal and external—happier. About the book Drawing on author Arnaud Lauret's many years of API design experience, this book teaches you how to gather requirements, how to balance business and technical goals, and how to adopt a consumer-first mindset. It teaches effective practices using numerous interesting examples. What's inside Characteristics of a well-designed API User-oriented and real-world APIs Secure APIs by design Evolving, documenting, and reviewing API designs About the reader Written for developers with minimal experience building and consuming APIs. About the author A software architect with extensive experience in the banking industry, Arnaud Lauret has spent 10 years using, designing, and building APIs. He blogs under the name of API Handyman and has created the API Stylebook website.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781638351191"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1638351198"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 625,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.2.2.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ZjszEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ZjszEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=ZjszEAAAQBAJ&printsec=frontcover&dq=web&hl=&cd=2&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=ZjszEAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZjszEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 2220.76,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 2220.76,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=ZjszEAAAQBAJ&rdid=book-ZjszEAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 2220760000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 2220760000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Design_of_Web_APIs-sample-epub.acsm?id=ZjszEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ZjszEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "About the book Drawing on author Arnaud Lauret&#39;s many years of API design experience, this book teaches you how to gather requirements, how to balance business and technical goals, and how to adopt a consumer-first mindset."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "pIH-JijUNS0C",
+        "etag": "vdyrPB62hgI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/pIH-JijUNS0C",
+        "volumeInfo": {
+          "title": "How the Web was Born",
+          "subtitle": "The Story of the World Wide Web",
+          "authors": [
+            "James Gillies",
+            "R. Cailliau"
+          ],
+          "publisher": "Oxford University Press, USA",
+          "publishedDate": "2000",
+          "description": "Two Web insiders who were employees of CERN in Geneva, where the Web was developed, tell how the idea for the World Wide Web came about, how it was developed, and how it was eventually handed over at no charge for the rest of the world to use. 20 illustrations.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "0192862073"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9780192862075"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 396,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "averageRating": 3,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.4.5.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=pIH-JijUNS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=pIH-JijUNS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=pIH-JijUNS0C&printsec=frontcover&dq=web&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=pIH-JijUNS0C&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/How_the_Web_was_Born.html?hl=&id=pIH-JijUNS0C"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/How_the_Web_was_Born-sample-pdf.acsm?id=pIH-JijUNS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=pIH-JijUNS0C&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This is the first book-length account of the Web&#39;s development and it includes interview material with the key players in the story."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "NU3wOk2jzWsC",
+        "etag": "/2B1eBEPVnY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/NU3wOk2jzWsC",
+        "volumeInfo": {
+          "title": "The Tangled Web",
+          "subtitle": "A Guide to Securing Modern Web Applications",
+          "authors": [
+            "Michal Zalewski"
+          ],
+          "publisher": "No Starch Press",
+          "publishedDate": "2011-11-15",
+          "description": "Modern web applications are built on a tangle of technologies that have been developed over time and then haphazardly pieced together. Every piece of the web application stack, from HTTP requests to browser-side scripts, comes with important yet subtle security consequences. To keep users safe, it is essential for developers to confidently navigate this landscape. In The Tangled Web, Michal Zalewski, one of the world’s top browser security experts, offers a compelling narrative that explains exactly how browsers work and why they’re fundamentally insecure. Rather than dispense simplistic advice on vulnerabilities, Zalewski examines the entire browser security model, revealing weak points and providing crucial information for shoring up web application security. You’ll learn how to: –Perform common but surprisingly complex tasks such as URL parsing and HTML sanitization –Use modern security features like Strict Transport Security, Content Security Policy, and Cross-Origin Resource Sharing –Leverage many variants of the same-origin policy to safely compartmentalize complex web applications and protect user credentials in case of XSS bugs –Build mashups and embed gadgets without getting stung by the tricky frame navigation policy –Embed or host user-supplied content without running into the trap of content sniffing For quick reference, \"Security Engineering Cheat Sheets\" at the end of each chapter offer ready solutions to problems you’re most likely to encounter. With coverage extending as far as planned HTML5 features, The Tangled Web will help you create secure web applications that stand the test of time.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781593273880"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1593273886"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 324,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.3.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=NU3wOk2jzWsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=NU3wOk2jzWsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=NU3wOk2jzWsC&pg=PP1&dq=web&hl=&cd=4&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=NU3wOk2jzWsC&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Tangled_Web.html?hl=&id=NU3wOk2jzWsC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=NU3wOk2jzWsC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "In The Tangled Web, Michal Zalewski, one of the world’s top browser security experts, offers a compelling narrative that explains exactly how browsers work and why they’re fundamentally insecure."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "onIuCgAAQBAJ",
+        "etag": "prmf1bPyEEg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/onIuCgAAQBAJ",
+        "volumeInfo": {
+          "title": "The Red Web",
+          "subtitle": "The Struggle Between Russia's Digital Dictators and the New Online Revolutionaries",
+          "authors": [
+            "Andrei Soldatov",
+            "Irina Borogan"
+          ],
+          "publisher": "PublicAffairs",
+          "publishedDate": "2015-09-08",
+          "description": "A Library Journal Best Book of 2015 A NPR Great Read of 2015 The Internet in Russia is either the most efficient totalitarian tool or the device by which totalitarianism will be overthrown. Perhaps both. On the eighth floor of an ordinary-looking building in an otherwise residential district of southwest Moscow, in a room occupied by the Federal Security Service (FSB), is a box the size of a VHS player marked SORM. The Russian government's front line in the battle for the future of the Internet, SORM is the world's most intrusive listening device, monitoring e-mails, Internet usage, Skype, and all social networks. But for every hacker subcontracted by the FSB to interfere with Russia's antagonists abroad -- such as those who, in a massive denial-of-service attack, overwhelmed the entire Internet in neighboring Estonia -- there is a radical or an opportunist who is using the web to chip away at the power of the state at home. Drawing from scores of interviews personally conducted with numerous prominent officials in the Ministry of Communications and web-savvy activists challenging the state, Andrei Soldatov and Irina Borogan peel back the history of advanced surveillance systems in Russia. From research laboratories in Soviet-era labor camps, to the legalization of government monitoring of all telephone and Internet communications in the 1990s, to the present day, their incisive and alarming investigation into the Kremlin's massive online-surveillance state exposes just how easily a free global exchange can be coerced into becoming a tool of repression and geopolitical warfare. Dissidents, oligarchs, and some of the world's most dangerous hackers collide in the uniquely Russian virtual world of The Red Web.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781610395748"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1610395743"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 385,
+          "printType": "BOOK",
+          "categories": [
+            "Political Science"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.22.22.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=onIuCgAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=onIuCgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=onIuCgAAQBAJ&dq=web&hl=&cd=5&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=onIuCgAAQBAJ&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Red_Web.html?hl=&id=onIuCgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=onIuCgAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Dissidents, oligarchs, and some of the world&#39;s most dangerous hackers collide in the uniquely Russian virtual world of The Red Web."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "a0w2EAAAQBAJ",
+        "etag": "Xem2n6o5Hcw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/a0w2EAAAQBAJ",
+        "volumeInfo": {
+          "title": "The Past Web",
+          "subtitle": "Exploring Web Archives",
+          "authors": [
+            "Daniel Gomes",
+            "Elena Demidova",
+            "Jane Winters",
+            "Thomas Risse"
+          ],
+          "publisher": "Springer Nature",
+          "publishedDate": "2021-06-30",
+          "description": "This book provides practical information about web archives, offers inspiring examples for web archivists, raises new challenges, and shares recent research results about access methods to explore information from the past preserved by web archives. The book is structured in six parts. Part 1 advocates for the importance of web archives to preserve our collective memory in the digital era, demonstrates the problem of web ephemera and shows how web archiving activities have been trying to address this challenge. Part 2 then focuses on different strategies for selecting web content to be preserved and on the media types that different web archives host. It provides an overview of efforts to address the preservation of web content as well as smaller-scale but high-quality collections of social media or audiovisual content. Next, Part 3 presents examples of initiatives to improve access to archived web information and provides an overview of access mechanisms for web archives designed to be used by humans or automatically accessed by machines. Part 4 presents research use cases for web archives. It also discusses how to engage more researchers in exploiting web archives and provides inspiring research studies performed using the exploration of web archives. Subsequently, Part 5 demonstrates that web archives should become crucial infrastructures for modern connected societies. It makes the case for developing web archives as research infrastructures and presents several inspiring examples of added-value services built on web archives. Lastly, Part 6 reflects on the evolution of the web and the sustainability of web archiving activities. It debates the requirements and challenges for web archives if they are to assume the responsibility of being societal infrastructures that enable the preservation of memory. This book targets academics and advanced professionals in a broad range of research areas such as digital humanities, social sciences, history, media studies and information or computer science. It also aims to fill the need for a scholarly overview to support lecturers who would like to introduce web archiving into their courses by offering an initial reference for students.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9783030632915"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "3030632911"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 301,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=a0w2EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=a0w2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=a0w2EAAAQBAJ&printsec=frontcover&dq=web&hl=&cd=6&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=a0w2EAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a0w2EAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 12626,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 12626,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=a0w2EAAAQBAJ&rdid=book-a0w2EAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 12626000000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 12626000000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Past_Web-sample-pdf.acsm?id=a0w2EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=a0w2EAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book provides practical information about web archives, offers inspiring examples for web archivists, raises new challenges, and shares recent research results about access methods to explore information from the past preserved by web ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "30ITPS8dM-oC",
+        "etag": "9Xuabps0wwc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/30ITPS8dM-oC",
+        "volumeInfo": {
+          "title": "The Adaptive Web",
+          "subtitle": "Methods and Strategies of Web Personalization",
+          "authors": [
+            "Peter Brusilovski",
+            "Alfred Kobsa",
+            "Wolfgang Nejdl"
+          ],
+          "publisher": "Springer Science & Business Media",
+          "publishedDate": "2007-04-24",
+          "description": "This state-of-the-art survey provides a systematic overview of the ideas and techniques of the adaptive Web and serves as a central source of information for researchers, practitioners, and students. The volume constitutes a comprehensive and carefully planned collection of chapters that map out the most important areas of the adaptive Web, each solicited from the experts and leaders in the field.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9783540720782"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "3540720782"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 770,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=30ITPS8dM-oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=30ITPS8dM-oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=30ITPS8dM-oC&printsec=frontcover&dq=web&hl=&cd=7&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=30ITPS8dM-oC&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Adaptive_Web.html?hl=&id=30ITPS8dM-oC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Adaptive_Web-sample-epub.acsm?id=30ITPS8dM-oC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Adaptive_Web-sample-pdf.acsm?id=30ITPS8dM-oC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=30ITPS8dM-oC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The volume constitutes a comprehensive and carefully planned collection of chapters that map out the most important areas of the adaptive Web, each solicited from the experts and leaders in the field."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Z-JVDwAAQBAJ",
+        "etag": "8IW4umRvHOc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Z-JVDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Web Coding & Development All-in-One For Dummies",
+          "authors": [
+            "Paul McFedries"
+          ],
+          "publisher": "John Wiley & Sons",
+          "publishedDate": "2018-04-16",
+          "description": "Speak the languages that power the web With more high-paying web development jobs opening every day, people with coding and web/app building skills are having no problems finding employment. If you're a would-be developer looking to gain the know-how to build the interfaces, databases, and other features that run modern websites, web apps, and mobile apps, look no further. Web Coding & Development All-in-One For Dummies is your go-to interpreter for speaking the languages that handle those tasks. Get started with a refresher on the rules of coding before diving into the languages that build interfaces, add interactivity to the web, or store and deliver data to sites. When you're ready, jump into guidance on how to put it all together to build a site or create an app. Get the lowdown on coding basics Review HTML and CSS Make sense of JavaScript, jQuery, PHP, and MySQL Create code for web and mobile apps There's a whole world of opportunity out there for developers—and this fast-track boot camp is here to help you acquire the skills you need to take your career to new heights!",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781119473794"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1119473799"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 919,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "0.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Z-JVDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Z-JVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=Z-JVDwAAQBAJ&printsec=frontcover&dq=web&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=Z-JVDwAAQBAJ&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Web_Coding_Development_All_in_One_For_Du.html?hl=&id=Z-JVDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Web_Coding_Development_All_in_One_For_Du-sample-epub.acsm?id=Z-JVDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Web_Coding_Development_All_in_One_For_Du-sample-pdf.acsm?id=Z-JVDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Z-JVDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "It also boosts your value in careers outside of web development. This book covers the tools, the skills, and the techniques even if you&#39;ve never coded before!"
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "vUdjPAFfenUC",
+        "etag": "5RlJAA296vU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vUdjPAFfenUC",
+        "volumeInfo": {
+          "title": "Build a Website for Free",
+          "authors": [
+            "Mark William Bell"
+          ],
+          "publisher": "Pearson Education",
+          "publishedDate": "2010-11-09",
+          "description": "Build yourself a state-of-the-art website. It’s incredibly easy...and it won’t cost you a dime! You need a website. But you don’t need the hassles that usually go with building one or the expense of hiring someone else to do it. Here’s your solution: Build a Website for Free! You’ll learn how you can use new Web 2.0 technologies to create a site that’s impressive and effective. And here’s the best part: You’ll do it all with software and tools that won’t cost you a dime! Plan, organize, and design a site that really works, using tools you can find for free Discover the simple secrets of writing pages people want to read Adapt your site for easy viewing on mobile devices Use video on your site—and get someone else to pay for hosting it Add an easy-to-update blog and start building your own web community Quickly and easily handle “nuts and bolts” tasks, from getting your site name to uploading your content Get your site picked up by Google, Yahoo!, and other search engines",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780132653770"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "013265377X"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 418,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "averageRating": 5,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.5.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=vUdjPAFfenUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=vUdjPAFfenUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=vUdjPAFfenUC&pg=PT41&dq=web&hl=&cd=9&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=vUdjPAFfenUC&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Build_a_Website_for_Free.html?hl=&id=vUdjPAFfenUC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=vUdjPAFfenUC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... server. When you go to cnn.com, there is a collection of pages that make up the \u003cb\u003ewebsite\u003c/b\u003e for the CNN television network. Figure I.2. A \u003cb\u003ewebsite\u003c/b\u003e is made of \u003cb\u003eweb\u003c/b\u003e pages. \u003cb\u003eWebsite Web\u003c/b\u003e Page \u003cb\u003eWeb Web\u003c/b\u003e Page Page \u003cb\u003eWeb\u003c/b\u003e Page What. What Is a \u003cb\u003eWeb\u003c/b\u003e Page? What&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "yC3BbwAACAAJ",
+        "etag": "g8jYtANroPs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/yC3BbwAACAAJ",
+        "volumeInfo": {
+          "title": "Web Technologies: Html, Javascript, Php, Java, Jsp, Asp.Net, Xml And Ajax, Black Book (With Cd)",
+          "authors": [
+            "Kogent Learning Solutions Inc. (with Cd)"
+          ],
+          "publishedDate": "2009-09-01",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "8177229974"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788177229974"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 1386,
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=yC3BbwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=yC3BbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=yC3BbwAACAAJ&dq=web&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=yC3BbwAACAAJ&dq=web&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Web_Technologies_Html_Javascript_Php_Jav.html?hl=&id=yC3BbwAACAAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=yC3BbwAACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "5CtYoSSxomcC",
+        "etag": "DucZ1o028PA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/5CtYoSSxomcC",
+        "volumeInfo": {
+          "title": "A History of Horror",
+          "authors": [
+            "Wheeler W. Dixon"
+          ],
+          "publisher": "Rutgers University Press",
+          "publishedDate": "2010",
+          "description": "Ever since horror leapt from popular fiction to the silver screen in the late 1890s, viewers have experienced fear and pleasure in exquisite combination. A History of Horror, with rare stills from classic films, is the only book to offer a comprehensive survey of this ever-popular film genre. Chronologically examining over fifty horror films from key periods, this one-stop sourcebook unearths the historical origins of legendary characters and explores how the genre fits into the Hollywood studio system and how its enormous success in American and European culture expanded globally over time.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780813547954"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0813547954"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 265,
+          "printType": "BOOK",
+          "categories": [
+            "Art"
+          ],
+          "averageRating": 3,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.4.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=5CtYoSSxomcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=5CtYoSSxomcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=5CtYoSSxomcC&printsec=frontcover&dq=horror&hl=&cd=2&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=5CtYoSSxomcC&dq=horror&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/A_History_of_Horror.html?hl=&id=5CtYoSSxomcC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/A_History_of_Horror-sample-epub.acsm?id=5CtYoSSxomcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/A_History_of_Horror-sample-pdf.acsm?id=5CtYoSSxomcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=5CtYoSSxomcC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "A History of Horror, with rare stills from classic films, is the only book to offer a comprehensive survey of this ever-popular film genre."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Su7_DwAAQBAJ",
+        "etag": "1sqKErIHmIU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Su7_DwAAQBAJ",
+        "volumeInfo": {
+          "title": "The Book of Horror",
+          "subtitle": "The Anatomy of Fear in Film",
+          "authors": [
+            "Matt Glasby"
+          ],
+          "publisher": "Quarto Publishing Group USA",
+          "publishedDate": "2020-09-22",
+          "description": "“Glasby anatomizes horror’s scare tactics with keen, lucid clarity across 34 carefully selected main films—classic and pleasingly obscure. 4 Stars.” —Total Film? Horror movies have never been more critically or commercially successful, but there’s only one metric that matters: are they scary? The Book of Horror focuses on the most frightening films of the post-war era—from Psycho (1960) to It Chapter Two (2019)—examining exactly how they scare us across a series of key categories. Each chapter explores a seminal horror film in depth, charting its scariest moments with infographics and identifying the related works you need to see. Including references to more than one hundred classic and contemporary horror films from around the globe, and striking illustrations from Barney Bodoano, this is a rich and compelling guide to the scariest films ever made. “This is the definitive guide to what properly messes us up.” —SFX Magazine The films: Psycho (1960), The Innocents (1961), The Haunting (1963), Don’t Look Now (1973), The Exorcist (1973), The Texas Chain Saw Massacre (1974), Who Can Kill a Child? (1976), Suspiria (1977), Halloween (1978), The Shining (1980), The Entity (1982), Angst (1983), Henry: Portrait of a Serial Killer (1990), Ring (1998), The Blair Witch Project (1999), The Others (2001), The Eye (2002), Ju-On: The Grudge (2002), Shutter (2004), The Descent (2005), Wolf Creek (2005), The Orphanage (2007), [Rec] (2007), The Strangers (2008), Lake Mungo (2008), Martyrs (2008), The Innkeepers (2011), Banshee Chapter (2013), Oculus (2013), The Babadook (2014), It Follows (2015), Terrified (2017), Hereditary (2018), It Chapter Two (2019)",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780711251793"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0711251797"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 179,
+          "printType": "BOOK",
+          "categories": [
+            "Art"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.6.5.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Su7_DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Su7_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=Su7_DwAAQBAJ&printsec=frontcover&dq=horror&hl=&cd=3&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=Su7_DwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Su7_DwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 699.74,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 349.87,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=Su7_DwAAQBAJ&rdid=book-Su7_DwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 699740000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 349870000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Book_of_Horror-sample-epub.acsm?id=Su7_DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Book_of_Horror-sample-pdf.acsm?id=Su7_DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Su7_DwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The Book of Horror focuses on the most frightening films of the post-war era—from Psycho (1960) to It Chapter Two (2019)—examining exactly how they scare us across a series of key categories."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "EHs_EAAAQBAJ",
+        "etag": "ZqR5vjqvSWI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/EHs_EAAAQBAJ",
+        "volumeInfo": {
+          "title": "A Very Nervous Person's Guide to Horror Movies",
+          "authors": [
+            "Mathias F. Clasen"
+          ],
+          "publisher": "Oxford University Press",
+          "publishedDate": "2021",
+          "description": "Why your worst nightmares about watching horror movies are unfounded Films about chainsaw killers, demonic possession, and ghostly intruders make some of us scream with joy. But while horror fans are attracted to movies designed to scare us, others shudder already at the thought of the sweat-drenched nightmares that terrifying movies often trigger. The fear of sleepless nights and the widespread beliefs that horror movies can have negative psychological effects and display immorality make some of us very, very nervous about them. But should we be concerned? In this book, horror-expert Mathias Clasen delves into the psychological science of horror cinema to bust some of the worst myths and correct the biggest misunderstandings surrounding the genre. In short and highly readable chapters peppered with vivid anecdotes and examples, he addresses the nervous person's most pressing questions: What are the effects of horror films on our mental and physical health? Why do they often cause nightmares? Aren't horror movies immoral and a bad influence on children and adolescents? Shouldn't we be concerned about what the current popularity of horror movies says about society and its values? While media psychologists have demonstrated that horror films indeed have the potential to harm us, Clasen reveals that the scientific evidence also contains a second story that is often overlooked: horror movies can also help us confront and manage fear and often foster prosocial values.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780197535899"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0197535895"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 209,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=EHs_EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=EHs_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=EHs_EAAAQBAJ&printsec=frontcover&dq=horror&hl=&cd=4&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=EHs_EAAAQBAJ&dq=horror&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/A_Very_Nervous_Person_s_Guide_to_Horror.html?hl=&id=EHs_EAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/A_Very_Nervous_Person_s_Guide_to_Horror-sample-pdf.acsm?id=EHs_EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=EHs_EAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "But should we be concerned? In this book, horror-expert Mathias Clasen delves into the psychological science of horror cinema to bust some of the worst myths and correct the biggest misunderstandings surrounding the genre."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "JDhAEAAAQBAJ",
+        "etag": "bWGKKu34nK4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/JDhAEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Untold Horror",
+          "authors": [
+            "George. A Romero",
+            "John Landis",
+            "Dave Alexander",
+            "Joe Dante",
+            "Brian Yuzna"
+          ],
+          "publisher": "Dark Horse Comics",
+          "publishedDate": "2021-08-31",
+          "description": "Insightful interviews of horror legends George Romero, John Landis, Joe Dante, Brian Yuzna, and more, by former editor-in-chief of Rue Morgue, Dave Alexander, about the scariest horror movies never made! Take a behind-the-scenes look into development hell to find the most frightening horror movies that never were, from unmade Re-Animator sequels to alternate takes on legendary franchises like Frankenstein and Dracula! Features art, scripts, and other production material from unmade films that still might make you scream--with insights from dozens of directors, screenwriters, and producers with decades of experience. Featured Interviews With: George A. Romero John Landis Joe Dante Vincenzo Natali Brian Yuzna William Lustig William Malone Buddy Giovinazzo Tim Sullivan Richard Raaphorst Ruggero Deodato Jim Shooter Bob Layton David J. Skal",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781506719023"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1506719023"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 160,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=JDhAEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=JDhAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=JDhAEAAAQBAJ&printsec=frontcover&dq=horror&hl=&cd=5&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=JDhAEAAAQBAJ&dq=horror&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Untold_Horror.html?hl=&id=JDhAEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Untold_Horror-sample-pdf.acsm?id=JDhAEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=JDhAEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Insightful interviews of horror legends George Romero, John Landis, Joe Dante, Brian Yuzna, and more, by former editor-in-chief of Rue Morgue, Dave Alexander, about the scariest horror movies never made!"
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "vzq805jZSAoC",
+        "etag": "4D+1NULwsn4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vzq805jZSAoC",
+        "volumeInfo": {
+          "title": "Horror Film Aesthetics",
+          "subtitle": "Creating the Visual Language of Fear",
+          "authors": [
+            "Thomas M. Sipos"
+          ],
+          "publisher": "McFarland",
+          "publishedDate": "2014-01-10",
+          "description": "This richly informed study analyzes how various cinematic tools and techniques have been used to create horror on screen--the aesthetic elements, sometimes not consciously noticed, that help to unnerve, frighten, shock or entertain an audience. The first two chapters define the genre and describe the use of pragmatic aesthetics (when filmmakers put technical and budgetary compromises to artistic effect). Subsequent chapters cover mise-en-scene, framing, photography, lighting, editing and sound, and a final chapter is devoted to the aesthetic appeals of horror cinema. Instructors considering this book for use in a course may request an examination copy here.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780786458349"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0786458348"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 289,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "averageRating": 2.5,
+          "ratingsCount": 3,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.4.6.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=vzq805jZSAoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=vzq805jZSAoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=vzq805jZSAoC&printsec=frontcover&dq=horror&hl=&cd=6&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=vzq805jZSAoC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vzq805jZSAoC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 1983.36,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 1983.36,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=vzq805jZSAoC&rdid=book-vzq805jZSAoC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 1983360000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 1983360000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Film_Aesthetics-sample-epub.acsm?id=vzq805jZSAoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Film_Aesthetics-sample-pdf.acsm?id=vzq805jZSAoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=vzq805jZSAoC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Instructors considering this book for use in a course may request an examination copy here."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Q60poKxIN7cC",
+        "etag": "4aW6R5UjZJE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Q60poKxIN7cC",
+        "volumeInfo": {
+          "title": "Horror Films of the 1990s",
+          "authors": [
+            "John Kenneth Muir"
+          ],
+          "publisher": "McFarland",
+          "publishedDate": "2011-10-06",
+          "description": "This filmography covers more than 300 horror films released from 1990 through 1999. The horror genre's trends and cliches are connected to social and cultural phenomena, such as Y2K fears and the Los Angeles riots. Popular films were about serial killers, aliens, conspiracies, and sinister \"interlopers,\" new monsters who shambled their way into havoc. Each of the films is discussed at length with detailed credits and critical commentary. There are six appendices: 1990s cliches and conventions, 1990s hall of fame, memorable ad lines, movie references in Scream, 1990s horrors vs. The X-Files, and the decade's ten best. Fully indexed, 224 photographs.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780786484805"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0786484802"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 716,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Q60poKxIN7cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Q60poKxIN7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=Q60poKxIN7cC&printsec=frontcover&dq=horror&hl=&cd=7&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=Q60poKxIN7cC&dq=horror&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Horror_Films_of_the_1990s.html?hl=&id=Q60poKxIN7cC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Films_of_the_1990s-sample-pdf.acsm?id=Q60poKxIN7cC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Q60poKxIN7cC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This filmography covers more than 300 horror films released from 1990 through 1999."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "mEgXEQAAQBAJ",
+        "etag": "yhdvkFxJQqQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/mEgXEQAAQBAJ",
+        "volumeInfo": {
+          "title": "The Horror Film",
+          "subtitle": "An Introduction",
+          "authors": [
+            "Rick Worland"
+          ],
+          "publisher": "John Wiley & Sons",
+          "publishedDate": "2024-09-16",
+          "description": "A lively and reliable narrative account of the horror genre, featuring new and revised material throughout The Horror Film: An Introduction surveys the history, development, and social impact of the genre. Covering American horror cinema from its earliest period to the present, this reader-friendly volume explores the many ways horror movies have been received by filmmakers, critics, and general audiences throughout the decades. Concise, easily accessible chapters describe historical instances of the genre's social reception based on primary research, analyze landmark films such as Frankenstein, Invasion of the Body Snatchers, and The Texas Chain Saw Massacre, and more. Incorporating recent scholarship on the genre, the second edition of The Horror Film contains new discussion and context for Hollywood horror films in the 1980s and 1990s, as well as notable developments in the genre such as “torture porn,” found-footage horror, remakes and reboots of past horror films, zombies, and the “elevated horror” debate. This edition explores the rise of new filmmakers such as Ari Aster, Robert Eggers, and Jordan Peele, surveys horror films made by women and African American filmmakers, and investigates contemporary issues in the production and consumption of horror films. Combining historical narrative with close readings of significant works, The Horror Film: Covers major works in the genre such as Cat People, Halloween, and Bram Stoker's Dracula Examines important antecedents including gothic literature and the Grand Guignol Theater Offers thorough analyses of the style, context, and themes of specific horror milestones Provides examples of close analysis that can be applied to a wide range of other horror films Discusses important representative titles across the genre's evolution, including more recent films such as 2017's Get Out The Horror Film: An Introduction, Second Edition, is an ideal textbook for undergraduate surveys of the horror genre and other courses in American film history, and an invaluable resource for scholars, lecturers, and general readers with an interest in the subject.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781119715269"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1119715261"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 438,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.0.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=mEgXEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=mEgXEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=mEgXEQAAQBAJ&printsec=frontcover&dq=horror&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=mEgXEQAAQBAJ&dq=horror&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Horror_Film.html?hl=&id=mEgXEQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Horror_Film-sample-pdf.acsm?id=mEgXEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=mEgXEQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This edition explores the rise of new filmmakers such as Ari Aster, Robert Eggers, and Jordan Peele, surveys horror films made by women and African American filmmakers, and investigates contemporary issues in the production and consumption ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "VJ1vcmaOd7wC",
+        "etag": "JWoXbZgjKmg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/VJ1vcmaOd7wC",
+        "volumeInfo": {
+          "title": "Horror Films of the 1980s",
+          "authors": [
+            "John Kenneth Muir"
+          ],
+          "publisher": "McFarland",
+          "publishedDate": "2010-07-28",
+          "description": "John Kenneth Muir is back! This time, the author of the acclaimed Horror Films of the 1970s turns his attention to 300 films from the 1980s. From horror franchises like Friday the 13th and Hellraiser to obscurities like The Children and The Boogens, Muir is our informative guide. Muir introduces the scope of the decade's horrors, and offers a history that draws parallels between current events and the nightmares unfolding on cinema screens. Each of the 300 films is discussed with detailed credits, a brief synopsis, a critical commentary, and where applicable, notes on the film's legacy beyond the 80s. Also included is the author's ranking of the 15 best horror films of the 80s.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780786455010"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0786455012"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 845,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "averageRating": 3,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=VJ1vcmaOd7wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=VJ1vcmaOd7wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=VJ1vcmaOd7wC&printsec=frontcover&dq=horror&hl=&cd=9&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=VJ1vcmaOd7wC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VJ1vcmaOd7wC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 2975.46,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 2975.46,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=VJ1vcmaOd7wC&rdid=book-VJ1vcmaOd7wC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 2975460000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 2975460000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Films_of_the_1980s-sample-epub.acsm?id=VJ1vcmaOd7wC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Films_of_the_1980s-sample-pdf.acsm?id=VJ1vcmaOd7wC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=VJ1vcmaOd7wC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "John Kenneth Muir is back! This time, the author of the acclaimed Horror Films of the 1970s turns his attention to 300 films from the 1980s."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "q1pCDwAAQBAJ",
+        "etag": "Yy5G8vsVVjk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/q1pCDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Horror Film",
+          "subtitle": "A Critical Introduction",
+          "authors": [
+            "Murray Leeder"
+          ],
+          "publisher": "Bloomsbury Publishing USA",
+          "publishedDate": "2018-01-25",
+          "description": "Throughout the history of cinema, horror has proven to be a genre of consistent popularity, which adapts to different cultural contexts while retaining a recognizable core. Horror Film: A Critical Introduction, the newest in Bloomsbury's Film Genre series, balances the discussions of horror's history, theory, and aesthetics as no introductory book ever has. Featuring studies of films both obscure and famous, Horror Film is international in its scope and chronicles horror from its silent roots until today. As a straightforward and convenient critical introduction to the history and key academic approaches, this book is accessible to the beginner but still of interest to the expert.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781501314445"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1501314440"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 289,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "2.3.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=q1pCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=q1pCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=q1pCDwAAQBAJ&printsec=frontcover&dq=horror&hl=&cd=10&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=q1pCDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=q1pCDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 2974,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 2974,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=q1pCDwAAQBAJ&rdid=book-q1pCDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 2974000000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 2974000000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Film-sample-epub.acsm?id=q1pCDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Horror_Film-sample-pdf.acsm?id=q1pCDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=q1pCDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "As a straightforward and convenient critical introduction to the history and key academic approaches, this book is accessible to the beginner but still of interest to the expert."
+        }
+      },
+
+
+      {
+        "kind": "books#volume",
         "id": "n997zQEACAAJ",
         "etag": "hjBY+LCtmFw",
         "selfLink": "https://www.googleapis.com/books/v1/volumes/n997zQEACAAJ",
