@@ -1,8 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
 import Book from "../Components/Book";
+// import from "./"
 import { useNavigate } from "react-router-dom";
 import '../index.css'
+// import data from '../data/data.json';
+// import data from '../data';
+// import 
+
 
 export default function HomePage(){
 
@@ -14,17 +19,25 @@ export default function HomePage(){
 
     
     useEffect(()=>{
-        const fetchBooks = async() =>{
-            // try{
-                const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=of`);
-                setBooks(res.data.items)
-            // }
-            // catch(err){
+        fetch('data.json')
+        .then(res => res.json())
+        .then(books => setBooks(books));
+        // const fetchBooks = async() =>{
+        //     // try{
+        //         // const res =await fetch('/data.json')
+        //         // const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=of`);
+        //         // setBooks(res.data.items)
+        //         // const data = await res.json();
+        //         setBooks(data.items);
+        //     // }
+        //     // catch(err){
                 
-            // }
+        //     // }
             
-        }
-        fetchBooks();
+        // }
+        // fetchBooks();
+        // setBooks(data.items);
+
         
     },[]);
 
@@ -36,11 +49,11 @@ export default function HomePage(){
              <button onClick={() => navigate('/search')}>Search</button>
              
              <div className="book-container">
-                {books.map((b)=>(
+                {books.items.map((b)=>(
                     <p key={b.id}>
                     <Book 
                         b = {b} 
-                        title = {b.volumeInfo.title}
+                        title = {b.volumeInfo.title }
                         author = {b.volumeInfo.authors}
                         image = {b.volumeInfo.imageLinks.thumbnail}/>
                     </p>
