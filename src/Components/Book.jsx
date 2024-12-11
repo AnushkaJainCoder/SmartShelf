@@ -10,7 +10,7 @@ export default function Book({b, title, author, image}){
             <div>{title}</div>
             <div>{author}</div>
            
-            {/* <DropDown item = {b} /> */}
+            <DropDown item = {b} />
         </div>
            
 
