@@ -48,7 +48,8 @@ export default function SearchBook() {
         <>
             <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Search..." />
             <button onClick={searchBookFilter}>Search</button>
-            <h2 className="result">{result}</h2>
+            <p className="result">{result}</p>
+            <p className="bor"></p>
             {/* <h1>behrfh</h1> */}
             <div className="book-container">
                 {filterbooks.map((b) => {

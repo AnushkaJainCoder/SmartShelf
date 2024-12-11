@@ -10,7 +10,7 @@ export default function Book({b, title, author, image}){
              <img src={image} />
              <DropDown  item = {b} />
             <div>{title}</div>
-            <div>{author}</div>
+            <div className="auth" style={{color: 'rgb(182 181 181)'}}>{author}</div>
            
            
         </div>
