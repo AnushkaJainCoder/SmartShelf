@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState } from "react"
+import { useEffect, useState } from "react"
 // import DropDown from "./DropDown";
 import Book from "./Book";
 import '../index.css'
@@ -7,12 +7,36 @@ import '../index.css'
 
 export default function SearchBook(){
     const [text, setText] = useState('');
-    const [books, setBooks] = useState([]);
+    const [filterbooks, setFilterBooks] = useState([]);
+    const [allBooks, setAllBooks] = useState([]);
     // const navigate = useNavigate();
 
-    const searchBookFilter = async() =>{
-        const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${text}`)
-        setBooks(res.data.items);
+    useEffect(()=>{
+        fetch('/data.json')
+        .then(res => {
+            if(!res.ok){
+                throw new Error('Network response not ok');
+            }
+            return res.json();
+        })
+        .then(data => {
+            console.log(data.items);
+            setAllBooks(data.items);
+            
+        })
+    },[])
+
+    const searchBookFilter = () =>{
+       const fb = allBooks.filter(book => {
+        const volumeInfo  = book.volumeInfo || {};
+        const title = volumeInfo || '';
+        if(typeof title === 'String'){
+            return title.toLowerCase().includes(text.toLowerCase());
+        }
+        return [];
+
+       });
+       setFilterBooks(fb)
     }
     // const [books, setBooks] = 
     return (
@@ -22,25 +46,26 @@ export default function SearchBook(){
              <input type="text" value = {text} onChange={(e) => setText(e.target.value)}  placeholder="Search..."/>
              <button onClick={searchBookFilter}>Search</button>
              <div style={{}}>
-                {books.map((b) =>(
-
-                   <p key={b.id}>
-                    <Book 
-                    b = {b} 
-                    title = {b.volumeInfo.title}
-                    author = {b.volumeInfo.authors}
-                    image = {b.volumeInfo.imageLinks.thumbnail}/>
-                    
-                    {/* {b.volumeInfo.title}
-                    {b.volumeInfo.authors} */}
-                    {/* {b.imageLinks.thumbnail && } */}
-                    {/* <img src={b.volumeInfo.imageLinks.thumbnail} />
-                    <DropDown item = {b}/> */}
-                    
-                    
-
-                   </p>
-                ))}
+             {filterbooks.map((b) =>{
+                const volumeInfo = b.volumeInfo || {};
+                const title = volumeInfo.title || 'No title';
+                const authors = volumeInfo.authors || 'Unknown';
+                const imageLinks = volumeInfo.imageLinks || 'No link';
+                const image = imageLinks.thumbnail || 'No image';
+                
+                return(
+                    <div key={b.id}>
+                        {/* {title}
+                        {authors} */}
+                         <Book 
+                        b = {b} 
+                        title = {title }
+                        author = {authors}
+                        image = {image}/>
+                    </div>
+                )
+             })}
+             
              </div>
    
         </>
