@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Book from "../Components/Book";
 import { BookContext } from "../Components/BookProvider";
 import { useNavigate } from "react-router-dom";
+// import '../shelf.css'
 
 export default function Shelf() {
     const { wtr, read, curr } = useContext(BookContext);
@@ -15,6 +16,7 @@ export default function Shelf() {
         <>
              <div className="book-container">
                 <h2>Want to Read</h2>
+                <div>
                 {wtr.map((b) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
@@ -33,7 +35,10 @@ export default function Shelf() {
                         </div>
                     );
                 })}
+                </div>
+                
             </div>
+            <br />
             <div className="book-container">
                 <h2>Read</h2>
                 {read.map((b) => {
@@ -55,6 +60,7 @@ export default function Shelf() {
                     );
                 })}
             </div>
+            <br />
             <div className="book-container">
                 <h2>Currently Reading</h2>
                 {curr.map((b) => {
