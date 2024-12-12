@@ -12,11 +12,6 @@ export default function Book({b, title, author, image}){
              <DropDown  book = {b}  />
             <div>{title}</div>
             <div className="auth" style={{color: 'rgb(182 181 181)'}}>{author}</div>
-           
-           
         </div>
-           
-
-        
     )
 }

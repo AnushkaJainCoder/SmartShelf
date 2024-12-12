@@ -1,11 +1,14 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import '../index.css';
+import { BookContext } from "./BookProvider";
 
-export const BookShelfContext = createContext();
+// export const BookShelfContext = createContext();
 
 export default function DropDown({book}){
 
-    const [selectedOption, setSelectedOption] = useState();
+    const [selectedOption, setSelectedOption] = useState('');
+    const {addBookToCat} = useContext(BookContext);
+    
     // const wtr = [];
     // const read = [];
     // const curr = [];
@@ -28,8 +31,10 @@ export default function DropDown({book}){
     // }
     
     const handleChange = (e) =>{
-        setSelectedOption(e.target.value )
-        console.log(selectedOption);
+        const category = e.target.value
+        setSelectedOption(category);
+        addBookToCat(book, category)
+        console.log(category , book);
         
         // console.log(wtr);
         // console.log(read);

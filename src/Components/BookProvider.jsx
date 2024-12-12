@@ -1,6 +1,6 @@
-import { useContext, useState } from "react"
+import { createContext, useContext, useState } from "react"
 
-export const BookContext = useContext();
+export const BookContext = createContext();
 
 export default function BookProvider ({children}){
 
@@ -8,7 +8,20 @@ export default function BookProvider ({children}){
     const [read, setread] = useState([]);
     const [curr, setcurr] = useState([]);
     
-
+    const addBookToCat = (book, category) =>{
+        if(category === 'Want to read'){
+                setwtr((prev) => [...prev, book]);
+                console.log("book added successfully");
+                console.log(wtr);
+            }
+        else if(category === 'Read'){
+            setread((prev) => [...prev, book]);
+        }
+        else if(category === 'Currently Reading'){
+            // curr.push(book);
+            setcurr((prev) => [...prev, book]);
+        }
+    }
 
     // if(selectedOption === 'Want to read'){
     //     setwtr((prev) => [...prev, book]);
@@ -23,8 +36,8 @@ export default function BookProvider ({children}){
 
     return (
         <>
-            <BookContext.Provider value = {{wtr, read, curr}}>
-                <children />
+            <BookContext.Provider value = {{wtr, read, curr, addBookToCat}}>
+                {children}
             </BookContext.Provider>
         </>
     )
