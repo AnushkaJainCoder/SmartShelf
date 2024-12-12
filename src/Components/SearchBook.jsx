@@ -66,12 +66,11 @@ export default function SearchBook() {
             </div>
 
 
-            {/* <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="web developement" /> */}
-            {/* <button onClick={searchBookFilter}>Search</button> */}
-            {/* <button onClick={searchBookFilter} className="circular-button" >
-                <i className="fas fa-plus"></i>
-            </button>  */}
-            <p className="result">{result}</p>
+           
+            {/* {
+                text.trim?<p className="result">{result}</p>:''
+            } */}
+            
             <p className="bor"></p>
             {/* <h1>behrfh</h1> */}
             <div className="book-container">
