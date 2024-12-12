@@ -110,7 +110,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #007bff;
+  background-color: #34C759;
   color: #fff;
   border: none;
   display: flex;
@@ -125,7 +125,7 @@
 }
 
 .circular-button:hover {
-  background-color: #0056b3;
+  background-color: #34C759
 }
 
 .search-container {
@@ -193,3 +193,5 @@
   /* color: #666; */
   color: #a5a2a2;
 }
+
+
