@@ -167,11 +167,11 @@
 }
 
 .back-button {
-  background-color: #ebeaea; /* Grey background */
-  color: #969494; /* Dark grey text */
+  background-color: #ebeaea;
+  color: #969494;
   border: none;
   padding: 10px 15px;
-  border-radius: 50%; /* Circular shape */
+  border-radius: 50%; 
   cursor: pointer;
   font-size: 18px;
   position: absolute;

@@ -11,6 +11,10 @@ export default function SearchBook() {
     const [text, setText] = useState('');
     const [filterbooks, setFilterBooks] = useState([]);
     const [allBooks, setAllBooks] = useState([]);
+    const [res, showres] = useState(false);
+    const [search, setsearch] = useState(false);
+    
+
     // const navigate = useNavigate();
 
     useEffect(() => {
@@ -39,6 +43,8 @@ export default function SearchBook() {
 
         });
         setFilterBooks(fb);
+        showres(true);
+        setsearch(true);
         // const(set)
         // console.log(filterbooks);
         
@@ -53,7 +59,7 @@ export default function SearchBook() {
             <input 
                 type="text" 
                 value={text} 
-                onChange={(e) => setText(e.target.value)} 
+                onChange={(e) => {setText(e.target.value); setsearch(false)}} 
                 placeholder="Web Development" 
                 className="search-input"
             />
@@ -67,14 +73,19 @@ export default function SearchBook() {
 
 
            
-            {/* {
-                text.trim?<p className="result">{result}</p>:''
-            } */}
+            {
+                res && search?
+                <div>
+                    <p className="result">{result}</p>
+                    <p className="bor"></p>
+                </div>
+                :''
+            }
             
-            <p className="bor"></p>
+            
             {/* <h1>behrfh</h1> */}
             <div className="book-container">
-                {filterbooks.map((b) => {
+                {filterbooks.length > 0?(filterbooks.map((b) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
                     const authors = volumeInfo.authors || 'Unknown';
@@ -91,7 +102,8 @@ export default function SearchBook() {
                                 image={image} />
                         </div>
                     )
-                })}
+                })):(<p>no book found</p>)
+            }
 
             </div>
 
