@@ -2,8 +2,9 @@ import { useContext } from "react";
 import Book from "../Components/Book";
 import { BookContext } from "../Components/BookProvider";
 import { useNavigate } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.css';
 // import '../shelf.css'
-
+import '../index.css'
 export default function Shelf() {
     const { wtr, read, curr } = useContext(BookContext);
     const navigate = useNavigate();
@@ -13,9 +14,12 @@ export default function Shelf() {
     console.log("Currently Reading:", curr);
 
     return (
-        <>
+        <>  
+            <div>
+            <h2>Want to Read</h2>
+            <p className="bor"></p>
              <div className="book-container">
-                <h2>Want to Read</h2>
+                
                 <div>
                 {wtr.map((b) => {
                     const volumeInfo = b.volumeInfo || {};
@@ -38,9 +42,15 @@ export default function Shelf() {
                 </div>
                 
             </div>
+            
+            </div>
             <br />
-            <div className="book-container">
-                <h2>Read</h2>
+            <div>
+            <h2>Want to Read</h2>
+            <p className="bor"></p>
+             <div className="book-container">
+                
+                <div>
                 {read.map((b) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
@@ -59,10 +69,18 @@ export default function Shelf() {
                         </div>
                     );
                 })}
+                </div>
+                
+            </div>
+            
             </div>
             <br />
-            <div className="book-container">
-                <h2>Currently Reading</h2>
+            <div>
+            <h2>Want to Read</h2>
+            <p className="bor"></p>
+             <div className="book-container">
+                
+                <div>
                 {curr.map((b) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
@@ -81,9 +99,16 @@ export default function Shelf() {
                         </div>
                     );
                 })}
+                </div>
+                
             </div>
-            <button onClick={() => navigate('/search')}>Search</button>
-              
+            
+            </div>
+            
+            {/* </div> */}
+            <button className="circular-button" onClick={() => navigate('/search')}>
+                <i className="fas fa-plus"></i>
+            </button> 
         </>
     );
 }

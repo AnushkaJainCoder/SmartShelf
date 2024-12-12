@@ -33,6 +33,8 @@ export default function DropDown({book}){
     const handleChange = (e) =>{
         const category = e.target.value
         setSelectedOption(category);
+
+        if(book.id )
         addBookToCat(book, category)
         console.log(category , book);
         
