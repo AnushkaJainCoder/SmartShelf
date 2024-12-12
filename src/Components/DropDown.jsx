@@ -7,7 +7,7 @@ import { BookContext } from "./BookProvider";
 export default function DropDown({book}){
 
     const [selectedOption, setSelectedOption] = useState('');
-    const {addBookToCat} = useContext(BookContext);
+    const {addBookToCat, removeBookToCateg} = useContext(BookContext);
     
     // const wtr = [];
     // const read = [];
@@ -33,8 +33,11 @@ export default function DropDown({book}){
     const handleChange = (e) =>{
         const category = e.target.value
         setSelectedOption(category);
+        if(selectedOption === 'None'){
+            removeBookToCateg(book, selectedOption)
+        }
 
-        if(book.id ){
+        else if(book.id ){
             addBookToCat(book, category)
             console.log(category , book);
         }

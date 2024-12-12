@@ -7,9 +7,9 @@ export default function BookProvider ({children}){
     const [wtr, setwtr] = useState([]);
     const [read, setread] = useState([]);
     const [curr, setcurr] = useState([]);
-    
+    const isBookInCategory = (arr,book) => arr.some(b => b.id === book.id)
+        
     const addBookToCat = (book, category) =>{
-        const isBookInCategory = (arr) => arr.some(b => b.id === book.id)
         
         if(category === 'Want to read' && !isBookInCategory(wtr)){
                 setwtr((prev) => [...prev, book]);
@@ -23,6 +23,12 @@ export default function BookProvider ({children}){
             // curr.push(book);
             setcurr((prev) => [...prev, book]);
         }
+    }
+    const removeBookToCateg = (book, category) =>{
+        // if(category === 'Want to read'){
+
+        // }
+
     }
 
     // if(selectedOption === 'Want to read'){
@@ -38,7 +44,7 @@ export default function BookProvider ({children}){
 
     return (
         <>
-            <BookContext.Provider value = {{wtr, read, curr, addBookToCat}}>
+            <BookContext.Provider value = {{wtr, read, curr, addBookToCat, removeBookToCateg}}>
                 {children}
             </BookContext.Provider>
         </>
