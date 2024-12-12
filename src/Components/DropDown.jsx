@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import '../index.css';
 import { BookContext } from "./BookProvider";
 
@@ -8,6 +8,10 @@ export default function DropDown({book}){
 
     const [selectedOption, setSelectedOption] = useState('');
     const {addBookToCat, removeBookToCateg} = useContext(BookContext);
+
+    // useEffect(()=>{
+        
+    // },[selectedOption])
     
     // const wtr = [];
     // const read = [];
@@ -31,10 +35,11 @@ export default function DropDown({book}){
     // }
     
     const handleChange = (e) =>{
-        const category = e.target.value
+        const category = e.target.value;
+        const prevCateg = selectedOption;
         setSelectedOption(category);
-        if(selectedOption === 'None'){
-            removeBookToCateg(book, selectedOption)
+        if(category === 'None'){
+            removeBookToCateg(book)
         }
 
         else if(book.id ){

@@ -3,6 +3,8 @@ import { useEffect, useState } from "react"
 // import DropDown from "./DropDown";
 import Book from "./Book";
 import '../index.css'
+
+import '@fortawesome/fontawesome-free/css/all.css';
 // import { useNavigate } from "react-router-dom";
 
 export default function SearchBook() {
@@ -46,8 +48,29 @@ export default function SearchBook() {
 
     return (
         <>
-            <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Search..." />
-            <button onClick={searchBookFilter}>Search</button>
+
+            <div className="search-container">
+            <input 
+                type="text" 
+                value={text} 
+                onChange={(e) => setText(e.target.value)} 
+                placeholder="Web Development" 
+                className="search-input"
+            />
+            <button 
+                onClick={searchBookFilter} 
+                className="search-button"
+            >
+                <i className="fas fa-search"></i>
+            </button>
+            </div>
+
+
+            {/* <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="web developement" /> */}
+            {/* <button onClick={searchBookFilter}>Search</button> */}
+            {/* <button onClick={searchBookFilter} className="circular-button" >
+                <i className="fas fa-plus"></i>
+            </button>  */}
             <p className="result">{result}</p>
             <p className="bor"></p>
             {/* <h1>behrfh</h1> */}

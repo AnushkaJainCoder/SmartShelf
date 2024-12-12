@@ -127,3 +127,37 @@
 .circular-button:hover {
   background-color: #0056b3;
 }
+
+.search-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  /* justify-items: center; */
+  border: 1px solid #34C759; /* Green border */
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff; /* White background */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff; /* White background */
+}
+
+.search-button {
+  background-color: #34C759; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button i {
+  font-size: 18px;
+}

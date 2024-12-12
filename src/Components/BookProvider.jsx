@@ -25,8 +25,16 @@ export default function BookProvider ({children}){
         }
     }
     const removeBookToCateg = (book, category) =>{
-        // if(category === 'Want to read'){
 
+
+            setwtr((prev) => prev.filter(b => b.id !== book.id))
+        // }
+        // else if(category === 'Read' ){
+            setread((prev) => prev.filter(b => b.id !== book.id))
+        // }
+        // else if(category === 'Currently Reading' ){
+            // curr.push(book);
+            setcurr((prev) => prev.filter(b => b.id !== book.id))
         // }
 
     }
