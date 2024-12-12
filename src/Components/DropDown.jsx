@@ -34,9 +34,11 @@ export default function DropDown({book}){
         const category = e.target.value
         setSelectedOption(category);
 
-        if(book.id )
-        addBookToCat(book, category)
-        console.log(category , book);
+        if(book.id ){
+            addBookToCat(book, category)
+            console.log(category , book);
+        }
+       
         
         // console.log(wtr);
         // console.log(read);

@@ -9,15 +9,17 @@ export default function BookProvider ({children}){
     const [curr, setcurr] = useState([]);
     
     const addBookToCat = (book, category) =>{
-        if(category === 'Want to read'){
+        const isBookInCategory = (arr) => arr.some(b => b.id === book.id)
+        
+        if(category === 'Want to read' && !isBookInCategory(wtr)){
                 setwtr((prev) => [...prev, book]);
                 console.log("book added successfully");
                 console.log(wtr);
             }
-        else if(category === 'Read'){
+        else if(category === 'Read' && !isBookInCategory(read)){
             setread((prev) => [...prev, book]);
         }
-        else if(category === 'Currently Reading'){
+        else if(category === 'Currently Reading' &&  !isBookInCategory(curr)){
             // curr.push(book);
             setcurr((prev) => [...prev, book]);
         }

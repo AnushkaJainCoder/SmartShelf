@@ -13,6 +13,8 @@ export default function Shelf() {
     console.log("Read:", read);
     console.log("Currently Reading:", curr);
 
+    const generateUniqueKey = (book, index) => `${book.id}-${index}`
+
     return (
         <>  
             <div>
@@ -21,7 +23,7 @@ export default function Shelf() {
              <div className="book-container">
                 
                 <div>
-                {wtr.map((b) => {
+                {wtr.map((b, index) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
                     const authors = volumeInfo.authors || ['Unknown'];
@@ -29,7 +31,7 @@ export default function Shelf() {
                     const image = imageLinks.thumbnail || 'No image';
 
                     return (
-                        <div key={b.id}>
+                        <div key={generateUniqueKey(b, index)}>
                             <Book
                                 b={b}
                                 title={title}
@@ -46,12 +48,12 @@ export default function Shelf() {
             </div>
             <br />
             <div>
-            <h2>Want to Read</h2>
+            <h2>Read</h2>
             <p className="bor"></p>
              <div className="book-container">
                 
                 <div>
-                {read.map((b) => {
+                {read.map((b, index) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
                     const authors = volumeInfo.authors || ['Unknown'];
@@ -59,7 +61,7 @@ export default function Shelf() {
                     const image = imageLinks.thumbnail || 'No image';
 
                     return (
-                        <div key={b.id}>
+                        <div key={generateUniqueKey(b, index)}>
                             <Book
                                 b={b}
                                 title={title}
@@ -76,12 +78,12 @@ export default function Shelf() {
             </div>
             <br />
             <div>
-            <h2>Want to Read</h2>
+            <h2>Curr</h2>
             <p className="bor"></p>
              <div className="book-container">
                 
                 <div>
-                {curr.map((b) => {
+                {curr.map((b, index) => {
                     const volumeInfo = b.volumeInfo || {};
                     const title = volumeInfo.title || 'No title';
                     const authors = volumeInfo.authors || ['Unknown'];
@@ -89,7 +91,7 @@ export default function Shelf() {
                     const image = imageLinks.thumbnail || 'No image';
 
                     return (
-                        <div key={b.id}>
+                        <div key={generateUniqueKey(b, index)}>
                             <Book
                                 b={b}
                                 title={title}
