@@ -13,7 +13,7 @@ export default function SearchBook() {
     const [allBooks, setAllBooks] = useState([]);
     const [res, showres] = useState(false);
     const [search, setsearch] = useState(false);
-    
+
 
     // const navigate = useNavigate();
 
@@ -47,7 +47,7 @@ export default function SearchBook() {
         setsearch(true);
         // const(set)
         // console.log(filterbooks);
-        
+
     }
 
     const result = 'Result: ' + text;
@@ -56,54 +56,59 @@ export default function SearchBook() {
         <>
 
             <div className="search-container">
-            <input 
-                type="text" 
-                value={text} 
-                onChange={(e) => {setText(e.target.value); setsearch(false)}} 
-                placeholder="Web Development" 
-                className="search-input"
-            />
-            <button 
-                onClick={searchBookFilter} 
-                className="search-button"
-            >
-                <i className="fas fa-search"></i>
-            </button>
+                <input
+                    type="text"
+                    value={text}
+                    onChange={(e) => { setText(e.target.value); setsearch(false) }}
+                    placeholder="Web Development"
+                    className="search-input"
+                />
+                <button
+                    onClick={searchBookFilter}
+                    className="search-button"
+                >
+                    <i className="fas fa-search"></i>
+                </button>
             </div>
 
 
-           
+
             {
-                res && search?
-                <div>
-                    <p className="result">{result}</p>
-                    <p className="bor"></p>
-                </div>
-                :''
+                res && search ?
+                    <div>
+                        <p className="result">{result}</p>
+                        <p className="bor"></p>
+                    </div>
+                    : ''
             }
-            
-            
+
+
             {/* <h1>behrfh</h1> */}
             <div className="book-container">
-                {filterbooks.length > 0?(filterbooks.map((b) => {
-                    const volumeInfo = b.volumeInfo || {};
-                    const title = volumeInfo.title || 'No title';
-                    const authors = volumeInfo.authors || 'Unknown';
-                    const imageLinks = volumeInfo.imageLinks || 'No link';
-                    const image = imageLinks.thumbnail || 'No image';
+                {filterbooks.length === 0 && search ?
+                    <div className="no-book-found">
+                        <p>Sorry, no book found</p>
+                    </div>
 
-                    return (
-                        <div key={b.id}>
-                            
-                            <Book
-                                b={b}
-                                title={title}
-                                author={authors}
-                                image={image} />
-                        </div>
-                    )
-                })):(<p>no book found</p>)
-            }
+                    : (filterbooks.map((b) => {
+                        const volumeInfo = b.volumeInfo || {};
+                        const title = volumeInfo.title || 'No title';
+                        const authors = volumeInfo.authors || 'Unknown';
+                        const imageLinks = volumeInfo.imageLinks || 'No link';
+                        const image = imageLinks.thumbnail || 'No image';
+
+                        return (
+                            <div key={b.id}>
+
+                                <Book
+                                    b={b}
+                                    title={title}
+                                    author={authors}
+                                    image={image} />
+                            </div>
+                        )
+                    }))
+                }
 
             </div>
 
