@@ -89,35 +89,25 @@ export default function BookProvider ({children}){
             setcurr((prev) => [...prev, book]);
         }
     }
-    // const removeBookToCateg = (book, category) =>{
+    const removeBookToCateg = (book, category) =>{
 
 
-    //         setwtr((prev) => prev.filter(b => b.id !== book.id))
-    //     // }
-    //     // else if(category === 'Read' ){
-    //         setread((prev) => prev.filter(b => b.id !== book.id))
-    //     // }
-    //     // else if(category === 'Currently Reading' ){
-    //         // curr.push(book);
-    //         setcurr((prev) => prev.filter(b => b.id !== book.id))
-    //     // }
+            setwtr((prev) => prev.filter(b => b.id !== book.id))
+        // }
+        // else if(category === 'Read' ){
+            setread((prev) => prev.filter(b => b.id !== book.id))
+        // }
+        // else if(category === 'Currently Reading' ){
+            // curr.push(book);
+            setcurr((prev) => prev.filter(b => b.id !== book.id))
+        // }
 
-    // }
+    }
 
-    // if(selectedOption === 'Want to read'){
-    //     setwtr((prev) => [...prev, book]);
-    // }
-    // else if(selectedOption === 'Read'){
-    //     setread((prev) => [...prev, book]);
-    // }
-    // else if(selectedOption === 'Currently Reading'){
-    //     // curr.push(book);
-    //     setcurr((prev) => [...prev, book]);
-    // }
 
     return (
         <>
-            <BookContext.Provider value = {{wtr, read, curr, addBookToCat}}>
+            <BookContext.Provider value = {{wtr, read, curr, addBookToCat, removeBookToCateg}}>
                 {children}
             </BookContext.Provider>
         </>
