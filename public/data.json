@@ -1338,67 +1338,6 @@
       },
       {
         "kind": "books#volume",
-        "id": "yC3BbwAACAAJ",
-        "etag": "g8jYtANroPs",
-        "selfLink": "https://www.googleapis.com/books/v1/volumes/yC3BbwAACAAJ",
-        "volumeInfo": {
-          "title": "Web Technologies: Html, Javascript",
-          "authors": [
-            "Kogent Learning Solutions"
-          ],
-          "publishedDate": "2009-09-01",
-          "industryIdentifiers": [
-            {
-              "type": "ISBN_10",
-              "identifier": "8177229974"
-            },
-            {
-              "type": "ISBN_13",
-              "identifier": "9788177229974"
-            }
-          ],
-          "readingModes": {
-            "text": false,
-            "image": false
-          },
-          "pageCount": 1386,
-          "printType": "BOOK",
-          "maturityRating": "NOT_MATURE",
-          "allowAnonLogging": false,
-          "contentVersion": "preview-1.0.0",
-          "imageLinks": {
-            "smallThumbnail": "http://books.google.com/books/content?id=yC3BbwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-            "thumbnail": "http://books.google.com/books/content?id=yC3BbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-          },
-          "language": "en",
-          "previewLink": "http://books.google.co.in/books?id=yC3BbwAACAAJ&dq=web&hl=&cd=10&source=gbs_api",
-          "infoLink": "http://books.google.co.in/books?id=yC3BbwAACAAJ&dq=web&hl=&source=gbs_api",
-          "canonicalVolumeLink": "https://books.google.com/books/about/Web_Technologies_Html_Javascript_Php_Jav.html?hl=&id=yC3BbwAACAAJ"
-        },
-        "saleInfo": {
-          "country": "IN",
-          "saleability": "NOT_FOR_SALE",
-          "isEbook": false
-        },
-        "accessInfo": {
-          "country": "IN",
-          "viewability": "NO_PAGES",
-          "embeddable": false,
-          "publicDomain": false,
-          "textToSpeechPermission": "ALLOWED",
-          "epub": {
-            "isAvailable": false
-          },
-          "pdf": {
-            "isAvailable": false
-          },
-          "webReaderLink": "http://play.google.com/books/reader?id=yC3BbwAACAAJ&hl=&source=gbs_api",
-          "accessViewStatus": "NONE",
-          "quoteSharingAllowed": false
-        }
-      },
-      {
-        "kind": "books#volume",
         "id": "5CtYoSSxomcC",
         "etag": "DucZ1o028PA",
         "selfLink": "https://www.googleapis.com/books/v1/volumes/5CtYoSSxomcC",

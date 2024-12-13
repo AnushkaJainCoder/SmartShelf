@@ -19,6 +19,33 @@ export default function Shelf() {
     return (
         <>
             <div className="shelf-container">
+            <div className="shelf-section">
+                    <div className="section-header">
+                        <h2>Currently reading</h2>
+                    </div>
+                    <p className="bor"></p>
+                    <div className="book-container">
+                        {curr.map((b, index) => {
+                            const volumeInfo = b.volumeInfo || {};
+                            const title = volumeInfo.title || 'No title';
+                            const authors = volumeInfo.authors || ['Unknown'];
+                            const imageLinks = volumeInfo.imageLinks || {};
+                            const image = imageLinks.thumbnail || 'No image';
+
+                            return (
+                                <div key={generateUniqueKey(b, index)}>
+                                    <Book
+                                        b={b}
+                                        title={title}
+                                        author={authors}
+                                        image={image}
+                                    />
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+               <br />
                 <div className="shelf-section">
                     <div className="section-header">
                         <h2>Want to Read</h2>
@@ -74,32 +101,6 @@ export default function Shelf() {
                     </div>
                 </div>
                 <br />
-                <div className="shelf-section">
-                    <div className="section-header">
-                        <h2>Currently reading</h2>
-                    </div>
-                    <p className="bor"></p>
-                    <div className="book-container">
-                        {curr.map((b, index) => {
-                            const volumeInfo = b.volumeInfo || {};
-                            const title = volumeInfo.title || 'No title';
-                            const authors = volumeInfo.authors || ['Unknown'];
-                            const imageLinks = volumeInfo.imageLinks || {};
-                            const image = imageLinks.thumbnail || 'No image';
-
-                            return (
-                                <div key={generateUniqueKey(b, index)}>
-                                    <Book
-                                        b={b}
-                                        title={title}
-                                        author={authors}
-                                        image={image}
-                                    />
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
                 <button className="circular-button" onClick={() => navigate('/search')}>
                     <i className="fas fa-plus"></i>
                 </button>

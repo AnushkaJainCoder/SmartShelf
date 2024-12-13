@@ -10,7 +10,7 @@
   height: 20%;
 }
 .card {
-  width: 70%;
+  width: 60%;
   height: 80%;
   border: 1px solid #ccc;
   padding: 10px;
@@ -26,7 +26,7 @@
 }
 
 .card img {
-  max-width: 100%;
+  max-width: 85%;
   height: 70%;
   border-radius: 4px;
   /* margin-bottom: 8px; */
@@ -34,7 +34,8 @@
 
 .card div {
   font-size: 16px;
-  color: #333;
+  color: #a76d2a;
+  font-weight: 700;
 }
 
 
@@ -205,12 +206,15 @@
 
 .section-header {
   width: 200px;
-  /* margin: 0 auto; */
+  /* text-align: center; */
+  margin: 0 auto;
+  color: #8d5543;
 }
 
 .section-header h2 {
   margin-top: 0;
-  text-align: left;
+  text-align: center;
+  /* color: ; */
   /* align-items: center; */
 }
 
