@@ -13,18 +13,34 @@ export default function BookProvider ({children}){
         
         if(category === 'Want to read' && !isBookInCategory(wtr, book)){
             
-            readFilter = read.filter(b => {
-                            const volumeInfo = b.volumeInfo || {};
-                            const title = volumeInfo.title || '';
-                            return title.toLowerCase()===book.toLowerCase();
+            const readFilter = read.filter(b => {
+                const volumeInfo1 = b.volumeInfo || {};
+                const title1 = volumeInfo1.title || '';
+                const volumeInfo2 = book.volumeInfo || {};
+                const title2 = volumeInfo2.title || '';
+                            
+                            return title1.toLowerCase()!==title2.toLowerCase();
                         });
+            const currFilter = curr.filter(b => {
+                const volumeInfo1 = b.volumeInfo || {};
+                const title1 = volumeInfo1.title || '';
+                const volumeInfo2 = book.volumeInfo || {};
+                const title2 = volumeInfo2.title || '';
+                            
+                            return title1.toLowerCase()!==title2.toLowerCase();
+            });
+                // read.filter()
 
-                if(readFilter)
+                setread(readFilter);
+                setcurr(currFilter)
                 setwtr((prev) => [...prev, book]);
                 console.log("book added successfully");
                 console.log(wtr);
             }
         else if(category === 'Read' && !isBookInCategory(read, book)){
+            
+            
+
             setread((prev) => [...prev, book]);
         }
         else if(category === 'Currently Reading' &&  !isBookInCategory(curr, book)){
