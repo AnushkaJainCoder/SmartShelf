@@ -12,6 +12,14 @@ export default function BookProvider ({children}){
     const addBookToCat = (book, category) =>{
         
         if(category === 'Want to read' && !isBookInCategory(wtr, book)){
+            
+            readFilter = read.filter(b => {
+                            const volumeInfo = b.volumeInfo || {};
+                            const title = volumeInfo.title || '';
+                            return title.toLowerCase()===book.toLowerCase();
+                        });
+
+                if(readFilter)
                 setwtr((prev) => [...prev, book]);
                 console.log("book added successfully");
                 console.log(wtr);
