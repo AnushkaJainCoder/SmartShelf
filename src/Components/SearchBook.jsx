@@ -30,12 +30,12 @@ export default function SearchBook() {
             })
     }, [])
 
-    const searchBookFilter = () => {
+    const searchBookFilter = (searchText) => {
         const fb = allBooks.filter(book => {
             const volumeInfo = book.volumeInfo || {};
             const title = volumeInfo.title || '';
             if (typeof title === 'string') {
-                return title.toLowerCase().includes(text.toLowerCase());
+                return title.toLowerCase().includes(searchText.toLowerCase());
             }
             return false;
 
@@ -43,6 +43,7 @@ export default function SearchBook() {
         setFilterBooks(fb);
         showres(true);
         setsearch(true);
+        setSuggestions([])
 
     }
 
@@ -66,11 +67,12 @@ export default function SearchBook() {
         }
     }
 
-    const handleSuggestionClick = (s) => {
-        setText(s);
+    const handleSuggestionClick = (suggestion) => {
+        setText(suggestion);
         setSuggestions([]);
-        searchBookFilter(s);
+        searchBookFilter(suggestion);
     }
+
 
 
     const result = 'Result: ' + text;
@@ -85,12 +87,14 @@ export default function SearchBook() {
                     placeholder="Web Development"
                     className="search-input"
                 />
+
                 <button
-                    onClick={searchBookFilter}
+                    onClick={() => searchBookFilter(text)}
                     className="search-button"
                 >
                     <i className="fas fa-search"></i>
                 </button>
+
             </div>
 
             {
