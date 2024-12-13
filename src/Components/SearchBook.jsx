@@ -109,7 +109,7 @@ export default function SearchBook() {
                         {
                             suggestions.map((suggestions, index) => (
                                 <div key={index} 
-                                className="suggested-item"
+                                className="suggestion-item"
                                 onClick={() => handleSuggestionClick(suggestions)}>
                                     {suggestions}
                                 </div>

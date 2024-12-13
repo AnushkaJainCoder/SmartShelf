@@ -212,3 +212,34 @@
   /* align-items: center; */
 }
 
+.suggestions-dropdown {
+  margin: 0 auto;
+  /* position: absolute; */
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  /* width: calc( */
+  width: 40%;
+  text-align: left;
+
+  }
+  
+  .suggestion-item {
+      /* padding: 10px; */
+      cursor: pointer;
+      /* border-bottom: 1px solid #1a1919; */
+  }
+
+  .suggestion-item:last-child {
+    border-bottom: none; /* Remove the border for the last item */
+}
+  
+  .suggestion-item:hover {
+      background-color: #f0f0f0; /* Highlight on hover */
+  }
+
+ 
