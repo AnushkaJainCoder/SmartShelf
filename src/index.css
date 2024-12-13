@@ -17,7 +17,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  /* background-color: #847d9f; */
+  background-color: rgb(141 134 134 / 20%);
   transition: transform 0.2s;
 }
 
@@ -34,7 +34,7 @@
 
 .card div {
   font-size: 16px;
-  color: #a76d2a;
+  color: #5e5626;
   font-weight: 700;
 }
 
