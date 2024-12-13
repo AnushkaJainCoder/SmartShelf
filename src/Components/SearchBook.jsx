@@ -78,7 +78,7 @@ export default function SearchBook() {
     const handleSuggestionClick = (s) =>{
         setText(s);
         setSuggestions([]);
-        searchBookFilter();
+        searchBookFilter(s);
     }
     // }
 
