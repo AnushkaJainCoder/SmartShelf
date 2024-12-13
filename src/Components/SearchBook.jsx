@@ -13,6 +13,9 @@ export default function SearchBook() {
     const [allBooks, setAllBooks] = useState([]);
     const [res, showres] = useState(false);
     const [search, setsearch] = useState(false);
+    const [suggestions, setSuggestions] = useState([]);
+    const generateUniqueKey = (book, index) => `${book.id}-${index}`
+
 
 
     // const navigate = useNavigate();
@@ -50,6 +53,28 @@ export default function SearchBook() {
 
     }
 
+    const handleInputChange = (e) => {
+        setText(e.target.value); 
+        setsearch(false);
+
+        if(value){
+            const filtersugg = allBooks.filter( b =>{
+                const volumeInfo = b.volumeInfo || {};
+                const title = volumeInfo.title || '';
+                return title.toLowerCase().includes(value.toLowerCase());
+            }).map(b => b.volumeInfo.title);
+            setSuggestions(filtersugg);
+            console.log(filtersugg);
+            
+        }
+        else{
+            setSuggestions([]);
+        }
+        
+
+    }
+    // }
+
     const result = 'Result: ' + text;
 
     return (
@@ -59,7 +84,7 @@ export default function SearchBook() {
                 <input
                     type="text"
                     value={text}
-                    onChange={(e) => { setText(e.target.value); setsearch(false) }}
+                    onChange={handleInputChange}
                     placeholder="Web Development"
                     className="search-input"
                 />
@@ -70,6 +95,10 @@ export default function SearchBook() {
                     <i className="fas fa-search"></i>
                 </button>
             </div>
+
+            {
+                
+            }
 
 
 

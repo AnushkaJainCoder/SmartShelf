@@ -6,7 +6,9 @@
   justify-content: center;
   /* padding: 10px 30px; */
 }
-
+.shelf-section{
+  height: 20%;
+}
 .card {
   width: 70%;
   height: 80%;
@@ -194,4 +196,19 @@
   color: #a5a2a2;
 }
 
+
+.shelf-section {
+  margin-bottom: 40px;
+}
+
+.section-header {
+  width: 200px;
+  /* margin: 0 auto; */
+}
+
+.section-header h2 {
+  margin-top: 0;
+  text-align: left;
+  /* align-items: center; */
+}
 

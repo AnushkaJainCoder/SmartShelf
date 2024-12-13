@@ -17,10 +17,13 @@ export default function Shelf() {
     const generateUniqueKey = (book, index) => `${book.id}-${index}`
 
     return (
-        <>  
+        <>
             <div className="shelf-container">
                 <div className="shelf-section">
-                    <h2>Want to Read</h2>
+                    <div className="section-header">
+                        <h2>Want to Read</h2>
+                    </div>
+                    {/* <h2 >Want to Read</h2> */}
                     <p className="bor"></p>
                     <div className="book-container">
                         {wtr.map((b, index) => {
@@ -45,7 +48,9 @@ export default function Shelf() {
                 </div>
                 <br />
                 <div className="shelf-section">
-                    <h2>Read</h2>
+                <div className="section-header">
+                        <h2>Read</h2>
+                    </div>
                     <p className="bor"></p>
                     <div className="book-container">
                         {read.map((b, index) => {
@@ -70,7 +75,9 @@ export default function Shelf() {
                 </div>
                 <br />
                 <div className="shelf-section">
-                    <h2>Currently Reading</h2>
+                <div className="section-header">
+                        <h2>Currently reading</h2>
+                    </div>
                     <p className="bor"></p>
                     <div className="book-container">
                         {curr.map((b, index) => {
@@ -95,7 +102,7 @@ export default function Shelf() {
                 </div>
                 <button className="circular-button" onClick={() => navigate('/search')}>
                     <i className="fas fa-plus"></i>
-                </button> 
+                </button>
             </div>
         </>
     );
