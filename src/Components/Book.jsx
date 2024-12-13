@@ -9,7 +9,7 @@ export default function Book({ b, title, author, image }) {
             <img src={image} />
             <DropDown book={b} />
             <div style={{fontSize: '20px'}}>{title}</div>
-            <div className="auth" style={{ color: 'rgb(225 53 53)', fontSize: '12px'}}><i>~{author}</i></div>
+            <div className="auth" style={{ color: 'rgb(162 37 37)', fontSize: '12px',  fontWeight: '500'}}><i>~{author}</i></div>
         </div>
     )
 }
