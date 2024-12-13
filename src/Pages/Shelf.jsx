@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Book from "../Components/Book";
-import { BookContext } from "../Components/BookProvider";
+import { BookContext } from "../Book Provider/BookProvider";
 import { useNavigate } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.css';
 // import '../shelf.css'
@@ -48,7 +48,7 @@ export default function Shelf() {
                 </div>
                 <br />
                 <div className="shelf-section">
-                <div className="section-header">
+                    <div className="section-header">
                         <h2>Read</h2>
                     </div>
                     <p className="bor"></p>
@@ -75,7 +75,7 @@ export default function Shelf() {
                 </div>
                 <br />
                 <div className="shelf-section">
-                <div className="section-header">
+                    <div className="section-header">
                         <h2>Currently reading</h2>
                     </div>
                     <p className="bor"></p>

@@ -2,8 +2,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import BookSearchPage from './Pages/BookSearchPage'
-import HomePage from "./Pages/Home";
-import BookProvider from "./Components/BookProvider";
+import HomePage from "./Trash/Home";
+import BookProvider from "./Book Provider/BookProvider";
 import Shelf from "./Pages/Shelf";
 
 function App() {

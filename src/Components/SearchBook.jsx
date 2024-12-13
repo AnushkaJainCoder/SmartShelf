@@ -5,7 +5,6 @@ import Book from "./Book";
 import '../index.css'
 
 import '@fortawesome/fontawesome-free/css/all.css';
-// import { useNavigate } from "react-router-dom";
 
 export default function SearchBook() {
     const [text, setText] = useState('');
@@ -14,11 +13,7 @@ export default function SearchBook() {
     const [res, showres] = useState(false);
     const [search, setsearch] = useState(false);
     const [suggestions, setSuggestions] = useState([]);
-    const generateUniqueKey = (book, index) => `${book.id}-${index}`
-
-
-
-    // const navigate = useNavigate();
+    const generateUniqueKey = (book, index) => `${book.id}-${index}`;
 
     useEffect(() => {
         fetch('/data.json')
@@ -48,45 +43,40 @@ export default function SearchBook() {
         setFilterBooks(fb);
         showres(true);
         setsearch(true);
-        // const(set)
-        // console.log(filterbooks);
 
     }
 
     const handleInputChange = (e) => {
         const value = e.target.value;
-        setText(e.target.value); 
+        setText(e.target.value);
         setsearch(false);
 
-        if(value){
-            const filtersugg = allBooks.filter( b =>{
+        if (value) {
+            const filtersugg = allBooks.filter(b => {
                 const volumeInfo = b.volumeInfo || {};
                 const title = volumeInfo.title || '';
                 return title.toLowerCase().includes(value.toLowerCase());
             }).map(b => b.volumeInfo.title);
             setSuggestions(filtersugg);
             console.log(filtersugg);
-            
+
         }
-        else{
+        else {
             setSuggestions([]);
         }
-        
-
     }
 
-    const handleSuggestionClick = (s) =>{
+    const handleSuggestionClick = (s) => {
         setText(s);
         setSuggestions([]);
         searchBookFilter(s);
     }
-    // }
+
 
     const result = 'Result: ' + text;
 
     return (
         <>
-
             <div className="search-container">
                 <input
                     type="text"
@@ -104,13 +94,13 @@ export default function SearchBook() {
             </div>
 
             {
-                suggestions.length>0 && (
+                suggestions.length > 0 && (
                     <div className="suggestions-dropdown">
                         {
                             suggestions.map((suggestions, index) => (
-                                <div key={index} 
-                                className="suggestion-item"
-                                onClick={() => handleSuggestionClick(suggestions)}>
+                                <div key={index}
+                                    className="suggestion-item"
+                                    onClick={() => handleSuggestionClick(suggestions)}>
                                     {suggestions}
                                 </div>
 
@@ -119,8 +109,6 @@ export default function SearchBook() {
                     </div>
                 )
             }
-
-
 
             {
                 res && search ?
@@ -131,8 +119,6 @@ export default function SearchBook() {
                     : ''
             }
 
-
-            {/* <h1>behrfh</h1> */}
             <div className="book-container">
                 {filterbooks.length === 0 && search ?
                     <div className="no-book-found">
