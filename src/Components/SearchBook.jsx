@@ -54,6 +54,7 @@ export default function SearchBook() {
     }
 
     const handleInputChange = (e) => {
+        const value = e.target.value;
         setText(e.target.value); 
         setsearch(false);
 
@@ -72,6 +73,12 @@ export default function SearchBook() {
         }
         
 
+    }
+
+    const handleSuggestionClick = (s) =>{
+        setText(s);
+        setSuggestions([]);
+        searchBookFilter();
     }
     // }
 
@@ -97,7 +104,20 @@ export default function SearchBook() {
             </div>
 
             {
-                
+                suggestions.length>0 && (
+                    <div className="suggestions-dropdown">
+                        {
+                            suggestions.map((suggestions, index) => (
+                                <div key={index} 
+                                className="suggested-item"
+                                onClick={() => handleSuggestionClick(suggestion)}>
+                                    {suggestions}
+                                </div>
+
+                            ))
+                        }
+                    </div>
+                )
             }
 
 
