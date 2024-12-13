@@ -132,7 +132,7 @@ export default function SearchBook() {
                     : (filterbooks.map((b) => {
                         const volumeInfo = b.volumeInfo || {};
                         const title = volumeInfo.title || 'No title';
-                        const authors = volumeInfo.authors || 'Unknown';
+                        const authors = volumeInfo.authors || 'Unknown Author';
                         const imageLinks = volumeInfo.imageLinks || 'No link';
                         const image = imageLinks.thumbnail || 'No image';
 

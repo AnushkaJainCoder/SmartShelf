@@ -1,22 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  position: relative; /* Position relative to allow z-index stacking */
+  z-index: 1; /* Bring the content above the overlay */
 }
 
-body{
+body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-  /* background-color: black; */
-  /* background: url('https://w0.peakpx.com/wallpaper/316/433/HD-wallpaper-books-library-shelves-lighting.jpg'); */
-  
-  background-repeat: no-repeat;
-  background-size:cover ;
+  /* background: url('https://www.shutterstock.com/shutterstock/videos/3552694507/thumb/1.jpg?ip=x480') no-repeat center center fixed;  */
+  background: url('https://live.staticflickr.com/7878/46915171151_b891e1a5a2_b.jpg') no-repeat center center fixed; 
+ 
+  background-size: cover; /* Cover the entire screen */
+  height: 100%;
   
 }
 
-input{
+body::before {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-position: fixed;
+  background: inherit; /* Use the same background image */
+  /* filter: blur(2px); Apply blur effect */
+  z-index: 0; /* Send it behind other content */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the blurred background */
+}
+
+input {
   border: rgb(174, 214, 113) 3px solid;
 }
 
@@ -26,9 +51,11 @@ input{
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -37,6 +64,7 @@ input{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

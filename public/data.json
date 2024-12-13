@@ -678,51 +678,392 @@
       },
       {
         "kind": "books#volume",
-        "id": "Z-JVDwAAQBAJ",
-        "etag": "8IW4umRvHOc",
-        "selfLink": "https://www.googleapis.com/books/v1/volumes/Z-JVDwAAQBAJ",
+        "id": "vSwDAAAAMBAJ",
+        "etag": "fEa4QtEw7hQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vSwDAAAAMBAJ",
         "volumeInfo": {
-          "title": "Web Coding & Development All-in-One For Dummies",
-          "authors": [
-            "Paul McFedries"
-          ],
-          "publisher": "John Wiley & Sons",
-          "publishedDate": "2018-04-16",
-          "description": "Speak the languages that power the web With more high-paying web development jobs opening every day, people with coding and web/app building skills are having no problems finding employment. If you're a would-be developer looking to gain the know-how to build the interfaces, databases, and other features that run modern websites, web apps, and mobile apps, look no further. Web Coding & Development All-in-One For Dummies is your go-to interpreter for speaking the languages that handle those tasks. Get started with a refresher on the rules of coding before diving into the languages that build interfaces, add interactivity to the web, or store and deliver data to sites. When you're ready, jump into guidance on how to put it all together to build a site or create an app. Get the lowdown on coding basics Review HTML and CSS Make sense of JavaScript, jQuery, PHP, and MySQL Create code for web and mobile apps There's a whole world of opportunity out there for developers—and this fast-track boot camp is here to help you acquire the skills you need to take your career to new heights!",
-          "industryIdentifiers": [
-            {
-              "type": "ISBN_13",
-              "identifier": "9781119473794"
-            },
-            {
-              "type": "ISBN_10",
-              "identifier": "1119473799"
-            }
-          ],
+          "title": "Popular Science",
+          "publishedDate": "1950-01",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
           "readingModes": {
-            "text": true,
+            "text": false,
             "image": true
           },
-          "pageCount": 919,
-          "printType": "BOOK",
-          "categories": [
-            "Computers"
-          ],
+          "pageCount": 282,
+          "printType": "MAGAZINE",
+          "averageRating": 5,
+          "ratingsCount": 2,
           "maturityRating": "NOT_MATURE",
-          "allowAnonLogging": true,
-          "contentVersion": "0.1.1.0.preview.3",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.1",
           "panelizationSummary": {
             "containsEpubBubbles": false,
             "containsImageBubbles": false
           },
           "imageLinks": {
-            "smallThumbnail": "http://books.google.com/books/content?id=Z-JVDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-            "thumbnail": "http://books.google.com/books/content?id=Z-JVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            "smallThumbnail": "http://books.google.com/books/content?id=vSwDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=vSwDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           },
           "language": "en",
-          "previewLink": "http://books.google.co.in/books?id=Z-JVDwAAQBAJ&printsec=frontcover&dq=web&hl=&cd=8&source=gbs_api",
-          "infoLink": "http://books.google.co.in/books?id=Z-JVDwAAQBAJ&dq=web&hl=&source=gbs_api",
-          "canonicalVolumeLink": "https://books.google.com/books/about/Web_Coding_Development_All_in_One_For_Du.html?hl=&id=Z-JVDwAAQBAJ"
+          "previewLink": "http://books.google.co.in/books?id=vSwDAAAAMBAJ&printsec=frontcover&dq=science&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=vSwDAAAAMBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=vSwDAAAAMBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=vSwDAAAAMBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Ok8XtrhowscC",
+        "etag": "UNJ/BOI2ShU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Ok8XtrhowscC",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "2008-01",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 106,
+          "printType": "MAGAZINE",
+          "averageRating": 4,
+          "ratingsCount": 8,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Ok8XtrhowscC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Ok8XtrhowscC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=Ok8XtrhowscC&printsec=frontcover&dq=science&hl=&cd=2&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=Ok8XtrhowscC&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=Ok8XtrhowscC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Ok8XtrhowscC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "3iEDAAAAMBAJ",
+        "etag": "w5Y/wpgNdsU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/3iEDAAAAMBAJ",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "1963-03",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 242,
+          "printType": "MAGAZINE",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=3iEDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=3iEDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=3iEDAAAAMBAJ&printsec=frontcover&dq=science&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=3iEDAAAAMBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=3iEDAAAAMBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=3iEDAAAAMBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "9CkDAAAAMBAJ",
+        "etag": "voQu/Kwj3uA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/9CkDAAAAMBAJ",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "1920-02",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 152,
+          "printType": "MAGAZINE",
+          "averageRating": 2.5,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=9CkDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=9CkDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=9CkDAAAAMBAJ&printsec=frontcover&dq=science&hl=&cd=4&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=9CkDAAAAMBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=9CkDAAAAMBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=9CkDAAAAMBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "MC0DAAAAMBAJ",
+        "etag": "3qtPYUebnIU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MC0DAAAAMBAJ",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "1950-05",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 290,
+          "printType": "MAGAZINE",
+          "averageRating": 5,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=MC0DAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=MC0DAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=MC0DAAAAMBAJ&printsec=frontcover&dq=science&hl=&cd=5&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=MC0DAAAAMBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=MC0DAAAAMBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=MC0DAAAAMBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "0yoDAAAAMBAJ",
+        "etag": "SstZCoqKoaI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0yoDAAAAMBAJ",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "1960-05",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 262,
+          "printType": "MAGAZINE",
+          "averageRating": 1,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=0yoDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=0yoDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=0yoDAAAAMBAJ&printsec=frontcover&dq=science&hl=&cd=6&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=0yoDAAAAMBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=0yoDAAAAMBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=0yoDAAAAMBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "OTQTEAAAQBAJ",
+        "etag": "cJ3HVDubfzk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/OTQTEAAAQBAJ",
+        "volumeInfo": {
+          "title": "The Science of Science",
+          "authors": [
+            "Dashun Wang",
+            "Albert-László Barabási"
+          ],
+          "publisher": "Cambridge University Press",
+          "publishedDate": "2021-03-25",
+          "description": "This is the first comprehensive overview of the exciting field of the 'science of science'. With anecdotes and detailed, easy-to-follow explanations of the research, this book is accessible to all scientists, policy makers, and administrators with an interest in the wider scientific enterprise.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781108492669"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1108492665"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 315,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "averageRating": 4,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=OTQTEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=OTQTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=OTQTEAAAQBAJ&printsec=frontcover&dq=science&hl=&cd=7&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=OTQTEAAAQBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Science_of_Science.html?hl=&id=OTQTEAAAQBAJ"
         },
         "saleInfo": {
           "country": "IN",
@@ -736,22 +1077,191 @@
           "publicDomain": false,
           "textToSpeechPermission": "ALLOWED",
           "epub": {
-            "isAvailable": true,
-            "acsTokenLink": "http://books.google.co.in/books/download/Web_Coding_Development_All_in_One_For_Du-sample-epub.acsm?id=Z-JVDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            "isAvailable": false
           },
           "pdf": {
             "isAvailable": true,
-            "acsTokenLink": "http://books.google.co.in/books/download/Web_Coding_Development_All_in_One_For_Du-sample-pdf.acsm?id=Z-JVDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Science_of_Science-sample-pdf.acsm?id=OTQTEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
           },
-          "webReaderLink": "http://play.google.com/books/reader?id=Z-JVDwAAQBAJ&hl=&source=gbs_api",
+          "webReaderLink": "http://play.google.com/books/reader?id=OTQTEAAAQBAJ&hl=&source=gbs_api",
           "accessViewStatus": "SAMPLE",
           "quoteSharingAllowed": false
         },
         "searchInfo": {
-          "textSnippet": "It also boosts your value in careers outside of web development. This book covers the tools, the skills, and the techniques even if you&#39;ve never coded before!"
+          "textSnippet": "This is the first comprehensive overview of the exciting field of the &#39;science of science&#39;."
         }
       },
       {
+        "kind": "books#volume",
+        "id": "cH2deQNd2yUC",
+        "etag": "+BkeN3E4otY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/cH2deQNd2yUC",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "2008-02",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 112,
+          "printType": "MAGAZINE",
+          "averageRating": 5,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "3.2.3.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=cH2deQNd2yUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=cH2deQNd2yUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=cH2deQNd2yUC&printsec=frontcover&dq=science&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=cH2deQNd2yUC&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=cH2deQNd2yUC"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=cH2deQNd2yUC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "nruj6VeHNy8C",
+        "etag": "+GMMgxuD2RY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/nruj6VeHNy8C",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "1980-09",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 164,
+          "printType": "MAGAZINE",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=nruj6VeHNy8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=nruj6VeHNy8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=nruj6VeHNy8C&printsec=frontcover&dq=science&hl=&cd=9&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=nruj6VeHNy8C&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=nruj6VeHNy8C"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=nruj6VeHNy8C&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "vyoDAAAAMBAJ",
+        "etag": "rBjdr1C9FA8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vyoDAAAAMBAJ",
+        "volumeInfo": {
+          "title": "Popular Science",
+          "publishedDate": "1960-02",
+          "description": "Popular Science gives our readers the information and tools to improve their technology and their world. The core belief that Popular Science and our readers share: The future is going to be better, and science and technology are the driving forces that will help make it better.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 274,
+          "printType": "MAGAZINE",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=vyoDAAAAMBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=vyoDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=vyoDAAAAMBAJ&printsec=frontcover&dq=science&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=vyoDAAAAMBAJ&dq=science&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Popular_Science.html?hl=&id=vyoDAAAAMBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=vyoDAAAAMBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Popular Science gives our readers the information and tools to improve their technology and their world."
+        }
+      }
+       ,     {
         "kind": "books#volume",
         "id": "vUdjPAFfenUC",
         "etag": "5RlJAA296vU",
@@ -832,9 +1342,9 @@
         "etag": "g8jYtANroPs",
         "selfLink": "https://www.googleapis.com/books/v1/volumes/yC3BbwAACAAJ",
         "volumeInfo": {
-          "title": "Web Technologies: Html, Javascript, Php, Java, Jsp, Asp.Net, Xml And Ajax, Black Book (With Cd)",
+          "title": "Web Technologies: Html, Javascript",
           "authors": [
-            "Kogent Learning Solutions Inc. (with Cd)"
+            "Kogent Learning Solutions"
           ],
           "publishedDate": "2009-09-01",
           "industryIdentifiers": [
