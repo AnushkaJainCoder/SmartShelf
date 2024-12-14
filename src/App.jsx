@@ -9,25 +9,22 @@ import Shelf from "./Pages/Shelf";
 function App() {
   return (
     <>
-    <BookProvider>
-      <Router>
+      <BookProvider>
+        <Router>
           <Routes>
-            <Route path='/search' element = { <BookSearchPage />}>
+            <Route path='/search' element={<BookSearchPage />}>
             </Route>
           </Routes>
-          {/* <Routes>
-            <Route path='/' element = { <HomePage />}>
-            </Route>
-          </Routes> */}
+
           <Routes>
-            <Route path='/' element = { <Shelf />}>
+            <Route path='/' element={<Shelf />}>
             </Route>
           </Routes>
-          
-      </Router>
-     </BookProvider>
+
+        </Router>
+      </BookProvider>
     </>
-    
+
   )
 }
 

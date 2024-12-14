@@ -19,7 +19,7 @@ export default function Shelf() {
     return (
         <>
             <div className="shelf-container">
-            <div className="shelf-section">
+                <div className="shelf-section">
                     <div className="section-header">
                         <h2>Currently reading</h2>
                     </div>
@@ -45,7 +45,7 @@ export default function Shelf() {
                         })}
                     </div>
                 </div>
-               <br />
+                <br />
                 <div className="shelf-section">
                     <div className="section-header">
                         <h2>Want to Read</h2>
