@@ -25,18 +25,18 @@ export default function DropDown({ book }) {
     return (
         <>
             <div className="dropdown">
+
                 <span className="icon"  >▼</span>
+
                 <select onChange={handleChange} className="dropdown-select">
 
                     <option ><span className="icon"  >▼</span></option>
-
                     <option value='Currently ' disabled>Move to....</option>
-
                     <option >Currently Reading</option>
-
                     <option >Want to read</option>
                     <option >Read</option>
                     <option >None</option>
+
                 </select>
             </div>
         </>
