@@ -33,7 +33,7 @@ export default function DropDown({ book }) {
                     <option value='' disabled>Move to....</option>
                     <option value='Currently Reading'>Currently Reading</option>
                     <option value='Want to read'>Want to read</option>
-                    <option value='Read'>Read</option> 
+                    <option value='Read'>Read</option>
                     <option value='None'>None</option>
 
                 </select>
