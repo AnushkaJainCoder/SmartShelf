@@ -14,97 +14,48 @@ export default function Shelf() {
     console.log("Read:", read);
     console.log("Currently Reading:", curr);
 
-    const generateUniqueKey = (book, index) => `${book.id}-${index}`
+    const generateUniqueKey = (book, index) => `${book.id}-${index}`;
+
+    const renderBookSection = (title, books) => (
+        <div className="shelf-section">
+            <div className="section-header">
+                <h2>{title}</h2>
+            </div>
+            <p className="bor"></p>
+            <div className="book-container">
+                {books.map((b, index) => {
+                    const volumeInfo = b.volumeInfo || {};
+                    const title = volumeInfo.title || 'No title';
+                    const authors = volumeInfo.authors || ['Unknown'];
+                    const imageLinks = volumeInfo.imageLinks || {};
+                    const image = imageLinks.thumbnail || 'No image';
+
+                    return (
+                        <div key={generateUniqueKey(b, index)}>
+                            <Book
+                                b={b}
+                                title={title}
+                                author={authors}
+                                image={image}
+                            />
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+
+    )
 
     return (
         <>
-            <div className="shelf-container">
-                <div className="shelf-section">
-                    <div className="section-header">
-                        <h2>Currently reading</h2>
-                    </div>
-                    <p className="bor"></p>
-                    <div className="book-container">
-                        {curr.map((b, index) => {
-                            const volumeInfo = b.volumeInfo || {};
-                            const title = volumeInfo.title || 'No title';
-                            const authors = volumeInfo.authors || ['Unknown'];
-                            const imageLinks = volumeInfo.imageLinks || {};
-                            const image = imageLinks.thumbnail || 'No image';
-
-                            return (
-                                <div key={generateUniqueKey(b, index)}>
-                                    <Book
-                                        b={b}
-                                        title={title}
-                                        author={authors}
-                                        image={image}
-                                    />
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-                <br />
-                <div className="shelf-section">
-                    <div className="section-header">
-                        <h2>Want to Read</h2>
-                    </div>
-                    {/* <h2 >Want to Read</h2> */}
-                    <p className="bor"></p>
-                    <div className="book-container">
-                        {wtr.map((b, index) => {
-                            const volumeInfo = b.volumeInfo || {};
-                            const title = volumeInfo.title || 'No title';
-                            const authors = volumeInfo.authors || ['Unknown'];
-                            const imageLinks = volumeInfo.imageLinks || {};
-                            const image = imageLinks.thumbnail || 'No image';
-
-                            return (
-                                <div key={generateUniqueKey(b, index)}>
-                                    <Book
-                                        b={b}
-                                        title={title}
-                                        author={authors}
-                                        image={image}
-                                    />
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-                <br />
-                <div className="shelf-section">
-                    <div className="section-header">
-                        <h2>Read Done</h2>
-                    </div>
-                    <p className="bor"></p>
-                    <div className="book-container">
-                        {read.map((b, index) => {
-                            const volumeInfo = b.volumeInfo || {};
-                            const title = volumeInfo.title || 'No title';
-                            const authors = volumeInfo.authors || ['Unknown'];
-                            const imageLinks = volumeInfo.imageLinks || {};
-                            const image = imageLinks.thumbnail || 'No image';
-
-                            return (
-                                <div key={generateUniqueKey(b, index)}>
-                                    <Book
-                                        b={b}
-                                        title={title}
-                                        author={authors}
-                                        image={image}
-                                    />
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-                <br />
+            <div>
+                {renderBookSection('Currently Reading', curr)};
+                {renderBookSection('Want to Read', wtr)};
+                {renderBookSection('Read Done', read)}
                 <button className="circular-button" onClick={() => navigate('/search')}>
                     <i className="fas fa-plus"></i>
                 </button>
-            </div>
+            </div >
         </>
     );
 }
