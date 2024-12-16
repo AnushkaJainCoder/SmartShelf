@@ -72,9 +72,7 @@ export default function SearchBook() {
         setSuggestions([]);
         searchBookFilter(suggestion);
     }
-
-
-
+    
     const result = 'Result: ' + text;
 
     return (
@@ -84,7 +82,7 @@ export default function SearchBook() {
                     type="text"
                     value={text}
                     onChange={handleInputChange}
-                    placeholder="Web Development"
+                    placeholder="Search your favourite book...."
                     className="search-input"
                 />
 

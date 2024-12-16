@@ -76,7 +76,7 @@ export default function Shelf() {
                 <br />
                 <div className="shelf-section">
                     <div className="section-header">
-                        <h2>Read</h2>
+                        <h2>Read Done</h2>
                     </div>
                     <p className="bor"></p>
                     <div className="book-container">
