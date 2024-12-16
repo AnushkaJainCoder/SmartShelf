@@ -10,7 +10,6 @@ export default function DropDown({ book }) {
 
     const handleChange = (e) => {
         const category = e.target.value;
-        const prevCateg = selectedOption;
         setSelectedOption(category);
         if (category === 'None') {
             removeBookToCateg(book)
@@ -28,14 +27,14 @@ export default function DropDown({ book }) {
 
                 <span className="icon"  >▼</span>
 
-                <select onChange={handleChange} className="dropdown-select">
+                <select onChange={handleChange} className="dropdown-select" value={selectedOption}>
 
                     <option ><span className="icon"  >▼</span></option>
-                    <option value='Currently ' disabled>Move to....</option>
-                    <option >Currently Reading</option>
-                    <option >Want to read</option>
-                    <option >Read</option>
-                    <option >None</option>
+                    <option value='' disabled>Move to....</option>
+                    <option value='Currently Reading'>Currently Reading</option>
+                    <option value='Want to read'>Want to read</option>
+                    <option value='Read'>Read</option> 
+                    <option value='None'>None</option>
 
                 </select>
             </div>
