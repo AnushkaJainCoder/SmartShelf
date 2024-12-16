@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 // import DropDown from "./DropDown";
 import Book from "./Book";
 import '../index.css'
@@ -14,7 +14,10 @@ export default function SearchBook() {
     const [res, showres] = useState(false);
     const [search, setsearch] = useState(false);
     const [suggestions, setSuggestions] = useState([]);
-    const generateUniqueKey = (book, index) => `${book.id}-${index}`;
+    const generateUniqueKey = useMemo(
+        () => {
+            return (book, index) => `${book.id}-${index}`
+        },[]);
 
     useEffect(() => {
         fetch('/data.json')
