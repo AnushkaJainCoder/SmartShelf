@@ -5,6 +5,7 @@ import Book from "./Book";
 import '../index.css'
 
 import '@fortawesome/fontawesome-free/css/all.css';
+import { useCallback } from "react";
 
 export default function SearchBook() {
     const [text, setText] = useState('');
@@ -30,7 +31,7 @@ export default function SearchBook() {
             })
     }, [])
 
-    const searchBookFilter = (searchText) => {
+    const searchBookFilter = useCallback((searchText) => {
         const fb = allBooks.filter(book => {
             const volumeInfo = book.volumeInfo || {};
             const title = volumeInfo.title || '';
@@ -45,9 +46,9 @@ export default function SearchBook() {
         setsearch(true);
         setSuggestions([])
 
-    }
+    },[allBooks]);
 
-    const handleInputChange = (e) => {
+    const handleInputChange = useCallback((e) => {
         const value = e.target.value;
         setText(e.target.value);
         setsearch(false);
@@ -65,14 +66,14 @@ export default function SearchBook() {
         else {
             setSuggestions([]);
         }
-    }
+    },[allBooks])
 
     const handleSuggestionClick = (suggestion) => {
         setText(suggestion);
         setSuggestions([]);
         searchBookFilter(suggestion);
     }
-    
+
     const result = 'Result: ' + text;
 
     return (
