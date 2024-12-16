@@ -14,11 +14,11 @@ export default function BookProvider({ children }) {
         const volumeInfo2 = book.volumeInfo || {};
         const title2 = volumeInfo2.title || '';
         return arr.filter(b => {
-                const volumeInfo1 = b.volumeInfo || {};
-                const title1 = volumeInfo1.title || '';
-                return title1.toLowerCase() !== title2.toLowerCase();
-            })
-    },[]);
+            const volumeInfo1 = b.volumeInfo || {};
+            const title1 = volumeInfo1.title || '';
+            return title1.toLowerCase() !== title2.toLowerCase();
+        })
+    }, []);
 
     const addBookToCat = useCallback((book, category) => {
 
@@ -46,14 +46,11 @@ export default function BookProvider({ children }) {
 
         }
     }, [wtr, read, curr, isBookInCategory]);
+
     const removeBookToCateg = (book, category) => {
-
-        setwtr((prev) => prev.filter(b => b.id !== book.id))
-
-        setread((prev) => prev.filter(b => b.id !== book.id))
-
-        setcurr((prev) => prev.filter(b => b.id !== book.id))
-
+        setwtr((prev) => prev.filter(b => b.id !== book.id));
+        setread((prev) => prev.filter(b => b.id !== book.id));
+        setcurr((prev) => prev.filter(b => b.id !== book.id));
     }
 
     return (
