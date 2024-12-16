@@ -17,21 +17,27 @@ export default function SearchBook() {
     const generateUniqueKey = useMemo(
         () => {
             return (book, index) => `${book.id}-${index}`
-        },[]);
+        }, []);
 
     useEffect(() => {
-        fetch('/data.json')
-            .then(res => {
+        const fetchBooks = async () => {
+            try {
+                const res = await fetch('/data.json')
                 if (!res.ok) {
                     throw new Error('Network response not ok');
                 }
-                return res.json();
-            })
-            .then(data => {
-                console.log(data.items);
+                const data = await res.json();
                 setAllBooks(data.items);
+            }
+            catch (err) {
+                console.log(err);
+            }
+        };
 
-            })
+        fetchBooks();
+
+
+
     }, [])
 
     const searchBookFilter = useCallback((searchText) => {
@@ -49,7 +55,7 @@ export default function SearchBook() {
         setsearch(true);
         setSuggestions([])
 
-    },[allBooks]);
+    }, [allBooks]);
 
     const handleInputChange = useCallback((e) => {
         const value = e.target.value;
@@ -69,7 +75,7 @@ export default function SearchBook() {
         else {
             setSuggestions([]);
         }
-    },[allBooks])
+    }, [allBooks])
 
     const handleSuggestionClick = (suggestion) => {
         setText(suggestion);
