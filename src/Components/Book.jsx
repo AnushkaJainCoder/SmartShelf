@@ -1,7 +1,8 @@
 import DropDown from "./DropDown";
 import '../index.css'
 
-export default function Book({ b, title, author, image }) {
+
+const Book = React.memo(({ b, title, author, image })  =>{
     // const auth = 
 
     return (
@@ -12,4 +13,6 @@ export default function Book({ b, title, author, image }) {
             <div className="auth" style={{ color: 'rgb(255 222 222)', fontSize: '12px', fontWeight: '700'}}><i>~{author}</i></div>
         </div>
     )
-}
+});
+
+export default Book;
