@@ -14,6 +14,7 @@ export default function SearchBook() {
     const [res, showres] = useState(false);
     const [search, setsearch] = useState(false);
     const [suggestions, setSuggestions] = useState([]);
+    const [Loading, setLoading] = useState(true);
     const generateUniqueKey = useMemo(
         () => {
             return (book, index) => `${book.id}-${index}`
@@ -21,6 +22,7 @@ export default function SearchBook() {
 
     useEffect(() => {
         const fetchBooks = async () => {
+            setLoading(true);
             try {
                 const res = await fetch('/data.json')
                 if (!res.ok) {
@@ -32,9 +34,12 @@ export default function SearchBook() {
             catch (err) {
                 console.log(err);
             }
+            finally{
+                setLoading(false);
+            }
         };
         fetchBooks();
-        
+
     }, [])
 
     const searchBookFilter = useCallback((searchText) => {
@@ -129,30 +134,38 @@ export default function SearchBook() {
             }
 
             <div className="book-container">
-                {filterbooks.length === 0 && search ?
-                    <div className="no-book-found">
-                        <p>Sorry, no book found</p>
-                    </div>
-
-                    : (filterbooks.map((b) => {
-                        const volumeInfo = b.volumeInfo || {};
-                        const title = volumeInfo.title || 'No title';
-                        const authors = volumeInfo.authors || 'Unknown Author';
-                        const imageLinks = volumeInfo.imageLinks || 'No link';
-                        const image = imageLinks.thumbnail || 'No image';
-
-                        return (
-                            <div key={b.id}>
-
-                                <Book
-                                    b={b}
-                                    title={title}
-                                    author={authors}
-                                    image={image} />
-                            </div>
-                        )
-                    }))
+                {
+                    Loading?(
+                        <div className="loading">
+                            <p>Loading books, please wait....</p>
+                        </div>
+                    ):
+                    (filterbooks.length === 0 && search ?
+                        <div className="no-book-found">
+                            <p>Sorry, no book found</p>
+                        </div>
+    
+                        : (filterbooks.map((b) => {
+                            const volumeInfo = b.volumeInfo || {};
+                            const title = volumeInfo.title || 'No title';
+                            const authors = volumeInfo.authors || 'Unknown Author';
+                            const imageLinks = volumeInfo.imageLinks || 'No link';
+                            const image = imageLinks.thumbnail || 'No image';
+    
+                            return (
+                                <div key={b.id}>
+    
+                                    <Book
+                                        b={b}
+                                        title={title}
+                                        author={authors}
+                                        image={image} />
+                                </div>
+                            )
+                        }))
+                    )
                 }
+                
 
             </div>
 
