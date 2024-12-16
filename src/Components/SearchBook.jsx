@@ -33,11 +33,8 @@ export default function SearchBook() {
                 console.log(err);
             }
         };
-
         fetchBooks();
-
-
-
+        
     }, [])
 
     const searchBookFilter = useCallback((searchText) => {
