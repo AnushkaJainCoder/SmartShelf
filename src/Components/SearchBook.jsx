@@ -136,7 +136,7 @@ export default function SearchBook() {
             <div className="book-container">
                 {
                     Loading?(
-                        <div className="loading">
+                        <div className="no-book-found">
                             <p>Loading books, please wait....</p>
                         </div>
                     ):
