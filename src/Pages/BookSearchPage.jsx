@@ -6,7 +6,7 @@ export default function BookSearchPage() {
     const navigate = useNavigate();
 
     return (
-        <>
+        <div>
             <button
                 onClick={() => navigate('/')}
                 className="back-button"
@@ -14,6 +14,6 @@ export default function BookSearchPage() {
                 <i className="fas fa-arrow-left"></i>
             </button>
             <SearchBook />
-        </>
+        </div>
     )
 }
