@@ -1,9 +1,10 @@
 .book-container {
   display: grid;
+  
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
   justify-content: center;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
 }
 
 .shelf-section {
@@ -130,11 +131,14 @@
 }
 
 .search-container {
-  margin: 0 auto;
-  width: 40%;
+  /* margin-top: 60px; */
+  /* margin: 50 auto; */
+  width: 30%;
   height: 10%;
   display: flex;
-  align-items: center;
+  /* align-items: flex-end; */
+  /* justify-content: center; */
+  /* align-items: center; */
   /* justify-items: center; */
   border: 2px solid #34C759;
   /* Green border */
@@ -272,6 +276,7 @@
 /* Navbar Styles */
 .navbar {
   width: 100%;
+  /* display: flex; */
   background-color: #333;
   overflow: hidden;
   position: fixed;
@@ -282,7 +287,7 @@
 
 .navbar-container {
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
   align-items: center;
   padding: 14px 20px;
 }

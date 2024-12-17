@@ -52,7 +52,7 @@ export default function Shelf() {
     )
 
     return (
-        <>
+        <div style={{paddingTop: '80px'}}>
              <Navbar />
             <div>
                 {renderBookSection('Continue....', curr)}
@@ -62,6 +62,6 @@ export default function Shelf() {
                     <i className="fas fa-plus"></i>
                 </button>
             </div >
-        </>
+        </div>
     );
 }

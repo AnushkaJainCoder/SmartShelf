@@ -1,11 +1,8 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react"
-// import DropDown from "./DropDown";
+import React, { useEffect, useMemo, useState, useCallback } from "react";
 import Book from "./Book";
-import '../index.css'
-
+import Navbar from "./Navbar";
+import '../index.css';
 import '@fortawesome/fontawesome-free/css/all.css';
-import { useCallback } from "react";
 
 export default function SearchBook() {
     const [text, setText] = useState('');
@@ -15,16 +12,12 @@ export default function SearchBook() {
     const [search, setsearch] = useState(false);
     const [suggestions, setSuggestions] = useState([]);
     const [Loading, setLoading] = useState(true);
-    // const generateUniqueKey = useMemo(
-    //     () => {
-    //         return (book, index) => `${book.id}-${index}`
-    //     }, []);
 
     useEffect(() => {
         const fetchBooks = async () => {
             setLoading(true);
             try {
-                const res = await fetch('/data.json')
+                const res = await fetch('/data.json');
                 if (!res.ok) {
                     throw new Error('Network response not ok');
                 }
@@ -40,7 +33,6 @@ export default function SearchBook() {
             }
         };
         fetchBooks();
-
     }, [])
 
     const searchBookFilter = useCallback((searchText) => {
@@ -51,13 +43,11 @@ export default function SearchBook() {
                 return title.toLowerCase().includes(searchText.toLowerCase());
             }
             return false;
-
         });
         setFilterBooks(fb);
         showres(true);
         setsearch(true);
-        setSuggestions([])
-
+        setSuggestions([]);
     }, [allBooks]);
 
     const filterSuggestionBlock = useCallback((value) => {
@@ -67,22 +57,7 @@ export default function SearchBook() {
             return title.toLowerCase().includes(value.toLowerCase());
         }).map(b => b.volumeInfo.title);
         setSuggestions(filtersugg);
-        console.log(filtersugg);
     }, [allBooks]);
-
-    const handleInputChange = useCallback((e) => {
-        const value = e.target.value;
-        setText(e.target.value);
-        setsearch(false);
-
-        if (value) {
-            filterSuggestionBlock(value)
-
-        }
-        else {
-            setSuggestions([]);
-        }
-    }, [filterSuggestionBlock])
 
     const handleSuggestionClick = (suggestion) => {
         setText(suggestion);
@@ -93,17 +68,15 @@ export default function SearchBook() {
     const result = 'Result: ' + text;
 
     const filteredBooks = useMemo(() => (
-
         filterbooks.map((b) => {
             const volumeInfo = b.volumeInfo || {};
             const title = volumeInfo.title || 'No title';
             const authors = volumeInfo.authors || 'Unknown Author';
-            const imageLinks = volumeInfo.imageLinks || 'No link';
+            const imageLinks = volumeInfo.imageLinks || {};
             const image = imageLinks.thumbnail || 'No image';
 
             return (
                 <div key={b.id}>
-
                     <Book
                         b={b}
                         title={title}
@@ -120,81 +93,61 @@ export default function SearchBook() {
                 onClick={() => handleSuggestionClick(suggestions)}>
                 {suggestions}
             </div>
-
         ))
     ), [suggestions]);
 
-    const handleShowAllBooks = (() => {
-        setFilterBooks(allBooks);
-        showres(false);
+    // const handleShowAllBooks = useCallback(() => {
+    //     setFilterBooks(allBooks);
+    //     showres(false);
+    //     setsearch(false);
+    //     setText('');
+    //     setSuggestions([]);
+    // }, [allBooks]);
+
+    const handleSearch = useCallback((value) => {
+        setText(value);
         setsearch(false);
-        setText('');
-        setSuggestions([]);
-    })
+        if (value) {
+            filterSuggestionBlock(value);
+            searchBookFilter(value);
+        } else {
+            setSuggestions([]);
+            setFilterBooks(allBooks);
+        }
+    }, [filterSuggestionBlock, searchBookFilter, allBooks]);
 
     return (
         <>
-            <div className="search-container">
-                <input
-                    type="text"
-                    value={text}
-                    onChange={handleInputChange}
-                    placeholder="Search your favourite book...."
-                    className="search-input"
-                />
+            <Navbar onSearch={handleSearch} />
+          
+            {suggestions.length > 0 && (
+                <div className="suggestions-dropdown">
+                    {suggestionsBlock}
+                </div>
+            )}
 
-                <button
-                    onClick={() => searchBookFilter(text)}
-                    className="search-button"
-                >
-                    <i className="fas fa-search"></i>
-                </button>
+            {res && search && (
+                <div>
+                    <p className="result">{result}</p>
+                    <p className="bor"></p>
+                </div>
+            )}
 
-                
-
-            </div>
-            <button onClick={handleShowAllBooks} className="show-all-button" >
-                    All 
-                </button>
-
-            {
-                suggestions.length > 0 && (
-                    <div className="suggestions-dropdown">
-                        {
-                            suggestionsBlock
-                        }
+            <div className="book-container" style={{paddingTop: '80px'}}>
+                {Loading ? (
+                    <div className="no-book-found">
+                        <p>Loading books, please wait....</p>
                     </div>
-                )
-            }
-
-            {
-                res && search ?
-                    <div>
-                        <p className="result">{result}</p>
-                        <p className="bor"></p>
-                    </div>
-                    : ''
-            }
-
-            <div className="book-container">
-                {
-                    Loading ? (
+                ) : (
+                    filterbooks.length === 0 && search ? (
                         <div className="no-book-found">
-                            <p>Loading books, please wait....</p>
+                            <p>Sorry, no book found</p>
                         </div>
-                    ) :
-                        (filterbooks.length === 0 && search ?
-                            <div className="no-book-found">
-                                <p>Sorry, no book found</p>
-                            </div>
-
-                            : filteredBooks
-                        )
-                }
-
-
+                    ) : (
+                        filteredBooks
+                    )
+                )}
             </div>
-
         </>
-    )
+    );
 }
