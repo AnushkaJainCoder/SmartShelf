@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useCallback, useContext, useMemo } from "react";
 import Book from "../Components/Book";
 import { BookContext } from "../Book Provider/BookProvider";
 import { useNavigate } from "react-router-dom";
@@ -14,7 +14,28 @@ export default function Shelf() {
     console.log("Read:", read);
     console.log("Currently Reading:", curr);
 
-    const generateUniqueKey = (book, index) => `${book.id}-${index}`;
+    const generateUniqueKey = useCallback((book, index) => `${book.id}-${index}`,[]);
+
+    const displayBooks = useCallback((books)=>{
+        return books.map((b, index) => {
+            const volumeInfo = b.volumeInfo || {};
+            const title = volumeInfo.title || 'No title';
+            const authors = volumeInfo.authors || ['Unknown'];
+            const imageLinks = volumeInfo.imageLinks || {};
+            const image = imageLinks.thumbnail || 'No image';
+
+            return (
+                <div key={generateUniqueKey(b, index)}>
+                    <Book
+                        b={b}
+                        title={title}
+                        author={authors}
+                        image={image}
+                    />
+                </div>
+            );
+        })
+    },[generateUniqueKey]);
 
     const renderBookSection = (title, books) => (
         <div className="shelf-section">
@@ -23,24 +44,7 @@ export default function Shelf() {
             </div>
             <p className="bor"></p>
             <div className="book-container">
-                {books.map((b, index) => {
-                    const volumeInfo = b.volumeInfo || {};
-                    const title = volumeInfo.title || 'No title';
-                    const authors = volumeInfo.authors || ['Unknown'];
-                    const imageLinks = volumeInfo.imageLinks || {};
-                    const image = imageLinks.thumbnail || 'No image';
-
-                    return (
-                        <div key={generateUniqueKey(b, index)}>
-                            <Book
-                                b={b}
-                                title={title}
-                                author={authors}
-                                image={image}
-                            />
-                        </div>
-                    );
-                })}
+                {displayBooks(books)}
             </div>
         </div>
 
@@ -52,7 +56,7 @@ export default function Shelf() {
                 {renderBookSection('Continue....', curr)}
                 {renderBookSection('Want to Read', wtr)}
                 {renderBookSection('Read Done', read)}
-                <button className="circular-button" onClick={() => navigate('/search')}>
+                <button className="circular-button" onClick={() => navigate('/books')}>
                     <i className="fas fa-plus"></i>
                 </button>
             </div >

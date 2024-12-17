@@ -8,7 +8,7 @@ export default function BookSearchPage() {
     return (
         <div>
             <button
-                onClick={() => navigate('/')}
+                onClick={() => navigate('/home')}
                 className="back-button"
             >
                 <i className="fas fa-arrow-left"></i>

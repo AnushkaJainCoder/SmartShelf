@@ -12,12 +12,12 @@ function App() {
       <BookProvider>
         <Router>
           <Routes>
-            <Route path='/search' element={<BookSearchPage />}>
+            <Route path='/books' element={<BookSearchPage />}>
             </Route>
           </Routes>
 
           <Routes>
-            <Route path='/' element={<Shelf />}>
+            <Route path='/home' element={<Shelf />}>
             </Route>
           </Routes>
 

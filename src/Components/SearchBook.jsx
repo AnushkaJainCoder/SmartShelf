@@ -15,10 +15,10 @@ export default function SearchBook() {
     const [search, setsearch] = useState(false);
     const [suggestions, setSuggestions] = useState([]);
     const [Loading, setLoading] = useState(true);
-    const generateUniqueKey = useMemo(
-        () => {
-            return (book, index) => `${book.id}-${index}`
-        }, []);
+    // const generateUniqueKey = useMemo(
+    //     () => {
+    //         return (book, index) => `${book.id}-${index}`
+    //     }, []);
 
     useEffect(() => {
         const fetchBooks = async () => {
@@ -30,6 +30,7 @@ export default function SearchBook() {
                 }
                 const data = await res.json();
                 setAllBooks(data.items);
+                setFilterBooks(data.items);
             }
             catch (err) {
                 console.log(err);
@@ -59,25 +60,29 @@ export default function SearchBook() {
 
     }, [allBooks]);
 
+    const filterSuggestionBlock = useCallback(() => {
+        const filtersugg = allBooks.filter(b => {
+            const volumeInfo = b.volumeInfo || {};
+            const title = volumeInfo.title || '';
+            return title.toLowerCase().includes(value.toLowerCase());
+        }).map(b => b.volumeInfo.title);
+        setSuggestions(filtersugg);
+        console.log(filtersugg);
+    }, [allBooks]);
+
     const handleInputChange = useCallback((e) => {
         const value = e.target.value;
         setText(e.target.value);
         setsearch(false);
 
         if (value) {
-            const filtersugg = allBooks.filter(b => {
-                const volumeInfo = b.volumeInfo || {};
-                const title = volumeInfo.title || '';
-                return title.toLowerCase().includes(value.toLowerCase());
-            }).map(b => b.volumeInfo.title);
-            setSuggestions(filtersugg);
-            console.log(filtersugg);
+            filterSuggestionBlock
 
         }
         else {
             setSuggestions([]);
         }
-    }, [allBooks])
+    }, [filterSuggestionBlock])
 
     const handleSuggestionClick = (suggestion) => {
         setText(suggestion);
@@ -86,6 +91,39 @@ export default function SearchBook() {
     }
 
     const result = 'Result: ' + text;
+
+    const filteredBooks = useMemo(() => (
+        
+        filterbooks.map((b) => {
+            const volumeInfo = b.volumeInfo || {};
+            const title = volumeInfo.title || 'No title';
+            const authors = volumeInfo.authors || 'Unknown Author';
+            const imageLinks = volumeInfo.imageLinks || 'No link';
+            const image = imageLinks.thumbnail || 'No image';
+
+            return (
+                <div key={b.id}>
+
+                    <Book
+                        b={b}
+                        title={title}
+                        author={authors}
+                        image={image} />
+                </div>
+            )
+        })),[filterbooks]);
+
+        const suggestionsBlock = useMemo(()=>(
+            suggestions.map((suggestions, index) => (
+                <div key={index}
+                    className="suggestion-item"
+                    onClick={() => handleSuggestionClick(suggestions)}>
+                    {suggestions}
+                </div>
+
+            ))
+        ),[suggestions]);
+    
 
     return (
         <>
@@ -111,14 +149,7 @@ export default function SearchBook() {
                 suggestions.length > 0 && (
                     <div className="suggestions-dropdown">
                         {
-                            suggestions.map((suggestions, index) => (
-                                <div key={index}
-                                    className="suggestion-item"
-                                    onClick={() => handleSuggestionClick(suggestions)}>
-                                    {suggestions}
-                                </div>
-
-                            ))
+                           suggestionsBlock
                         }
                     </div>
                 )
@@ -145,24 +176,7 @@ export default function SearchBook() {
                             <p>Sorry, no book found</p>
                         </div>
     
-                        : (filterbooks.map((b) => {
-                            const volumeInfo = b.volumeInfo || {};
-                            const title = volumeInfo.title || 'No title';
-                            const authors = volumeInfo.authors || 'Unknown Author';
-                            const imageLinks = volumeInfo.imageLinks || 'No link';
-                            const image = imageLinks.thumbnail || 'No image';
-    
-                            return (
-                                <div key={b.id}>
-    
-                                    <Book
-                                        b={b}
-                                        title={title}
-                                        author={authors}
-                                        image={image} />
-                                </div>
-                            )
-                        }))
+                        : filteredBooks
                     )
                 }
                 
