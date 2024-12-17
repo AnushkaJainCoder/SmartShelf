@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import SearchBook from "../Components/SearchBook";
+import Navbar from "../Components/Navbar";
 
 export default function BookSearchPage() {
 
@@ -13,6 +14,7 @@ export default function BookSearchPage() {
             >
                 <i className="fas fa-arrow-left"></i>
             </button>
+            <Navbar />
             <SearchBook />
         </div>
     )

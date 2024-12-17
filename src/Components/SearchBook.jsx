@@ -35,7 +35,7 @@ export default function SearchBook() {
             catch (err) {
                 console.log(err);
             }
-            finally{
+            finally {
                 setLoading(false);
             }
         };
@@ -60,7 +60,7 @@ export default function SearchBook() {
 
     }, [allBooks]);
 
-    const filterSuggestionBlock = useCallback(() => {
+    const filterSuggestionBlock = useCallback((value) => {
         const filtersugg = allBooks.filter(b => {
             const volumeInfo = b.volumeInfo || {};
             const title = volumeInfo.title || '';
@@ -76,7 +76,7 @@ export default function SearchBook() {
         setsearch(false);
 
         if (value) {
-            filterSuggestionBlock
+            filterSuggestionBlock(value)
 
         }
         else {
@@ -93,7 +93,7 @@ export default function SearchBook() {
     const result = 'Result: ' + text;
 
     const filteredBooks = useMemo(() => (
-        
+
         filterbooks.map((b) => {
             const volumeInfo = b.volumeInfo || {};
             const title = volumeInfo.title || 'No title';
@@ -111,19 +111,26 @@ export default function SearchBook() {
                         image={image} />
                 </div>
             )
-        })),[filterbooks]);
+        })), [filterbooks]);
 
-        const suggestionsBlock = useMemo(()=>(
-            suggestions.map((suggestions, index) => (
-                <div key={index}
-                    className="suggestion-item"
-                    onClick={() => handleSuggestionClick(suggestions)}>
-                    {suggestions}
-                </div>
+    const suggestionsBlock = useMemo(() => (
+        suggestions.map((suggestions, index) => (
+            <div key={index}
+                className="suggestion-item"
+                onClick={() => handleSuggestionClick(suggestions)}>
+                {suggestions}
+            </div>
 
-            ))
-        ),[suggestions]);
-    
+        ))
+    ), [suggestions]);
+
+    const handleShowAllBooks = (() => {
+        setFilterBooks(allBooks);
+        showres(false);
+        setsearch(false);
+        setText('');
+        setSuggestions([]);
+    })
 
     return (
         <>
@@ -143,13 +150,18 @@ export default function SearchBook() {
                     <i className="fas fa-search"></i>
                 </button>
 
+                
+
             </div>
+            <button onClick={handleShowAllBooks} className="show-all-button" >
+                    All 
+                </button>
 
             {
                 suggestions.length > 0 && (
                     <div className="suggestions-dropdown">
                         {
-                           suggestionsBlock
+                            suggestionsBlock
                         }
                     </div>
                 )
@@ -166,20 +178,20 @@ export default function SearchBook() {
 
             <div className="book-container">
                 {
-                    Loading?(
+                    Loading ? (
                         <div className="no-book-found">
                             <p>Loading books, please wait....</p>
                         </div>
-                    ):
-                    (filterbooks.length === 0 && search ?
-                        <div className="no-book-found">
-                            <p>Sorry, no book found</p>
-                        </div>
-    
-                        : filteredBooks
-                    )
+                    ) :
+                        (filterbooks.length === 0 && search ?
+                            <div className="no-book-found">
+                                <p>Sorry, no book found</p>
+                            </div>
+
+                            : filteredBooks
+                        )
                 }
-                
+
 
             </div>
 

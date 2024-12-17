@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.css';
 // import '../shelf.css'
 import '../index.css'
+import Navbar from "../Components/Navbar";
 
 export default function Shelf() {
     const { wtr, read, curr } = useContext(BookContext);
@@ -52,6 +53,7 @@ export default function Shelf() {
 
     return (
         <>
+             <Navbar />
             <div>
                 {renderBookSection('Continue....', curr)}
                 {renderBookSection('Want to Read', wtr)}
