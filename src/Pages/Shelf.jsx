@@ -49,8 +49,8 @@ export default function Shelf() {
     return (
         <>
             <div>
-                {renderBookSection('Currently Reading', curr)};
-                {renderBookSection('Want to Read', wtr)};
+                {renderBookSection('Continue....', curr)}
+                {renderBookSection('Want to Read', wtr)}
                 {renderBookSection('Read Done', read)}
                 <button className="circular-button" onClick={() => navigate('/search')}>
                     <i className="fas fa-plus"></i>
