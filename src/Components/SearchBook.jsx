@@ -5,7 +5,7 @@ import '../index.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 export default function SearchBook() {
-    const [text, setText] = useState('');
+    const [text, setText] = useState('All');
     const [filterbooks, setFilterBooks] = useState([]);
     const [allBooks, setAllBooks] = useState([]);
     const [res, showres] = useState(false);
@@ -119,7 +119,7 @@ export default function SearchBook() {
     return (
         <>
             <Navbar onSearch={handleSearch} />
-          
+
             {suggestions.length > 0 && (
                 <div className="suggestions-dropdown">
                     {suggestionsBlock}
@@ -133,7 +133,7 @@ export default function SearchBook() {
                 </div>
             )}
 
-            <div className="book-container" style={{paddingTop: '80px'}}>
+            <div className="book-container" style={{ paddingTop: '50px' }}>
                 {Loading ? (
                     <div className="no-book-found">
                         <p>Loading books, please wait....</p>

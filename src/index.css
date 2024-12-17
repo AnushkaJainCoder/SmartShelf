@@ -84,8 +84,9 @@
 }
 
 .result {
+  /* top: 1200px; */
 
-  margin-top: 10x;
+ padding-top: 50px;
   font-size: 21px;
   text-align: left;
   font-weight: 300;
@@ -225,6 +226,7 @@
 }
 
 .suggestions-dropdown {
+  top: 60px;
   margin: 0 auto;
   /* position: absolute; */
   cursor: pointer;
