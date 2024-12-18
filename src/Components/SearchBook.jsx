@@ -5,7 +5,7 @@ import '../index.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 export default function SearchBook() {
-    const [text, setText] = useState('All');
+    const [text, setText] = useState('');
     const [filterbooks, setFilterBooks] = useState([]);
     const [allBooks, setAllBooks] = useState([]);
     const [res, showres] = useState(false);
@@ -24,11 +24,9 @@ export default function SearchBook() {
                 const data = await res.json();
                 setAllBooks(data.items);
                 setFilterBooks(data.items);
-            }
-            catch (err) {
+            } catch (err) {
                 console.log(err);
-            }
-            finally {
+            } finally {
                 setLoading(false);
             }
         };
@@ -87,34 +85,25 @@ export default function SearchBook() {
         })), [filterbooks]);
 
     const suggestionsBlock = useMemo(() => (
-        suggestions.map((suggestions, index) => (
+        suggestions.map((suggestion, index) => (
             <div key={index}
                 className="suggestion-item"
-                onClick={() => handleSuggestionClick(suggestions)}>
-                {suggestions}
+                onClick={() => handleSuggestionClick(suggestion)}>
+                {suggestion}
             </div>
         ))
     ), [suggestions]);
-
-    // const handleShowAllBooks = useCallback(() => {
-    //     setFilterBooks(allBooks);
-    //     showres(false);
-    //     setsearch(false);
-    //     setText('');
-    //     setSuggestions([]);
-    // }, [allBooks]);
 
     const handleSearch = useCallback((value) => {
         setText(value);
         setsearch(false);
         if (value) {
             filterSuggestionBlock(value);
-            searchBookFilter(value);
         } else {
             setSuggestions([]);
             setFilterBooks(allBooks);
         }
-    }, [filterSuggestionBlock, searchBookFilter, allBooks]);
+    }, [filterSuggestionBlock, allBooks]);
 
     return (
         <>
@@ -133,7 +122,7 @@ export default function SearchBook() {
                 </div>
             )}
 
-            <div className="book-container" style={{ paddingTop: '50px' }}>
+            <div className="book-container" style={{ paddingTop: '60px' }}>
                 {Loading ? (
                     <div className="no-book-found">
                         <p>Loading books, please wait....</p>

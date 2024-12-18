@@ -1,9 +1,10 @@
 import { useCallback, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar({ onSearch }) {
 
     const [text, setText] = useState('');
+    const location = useLocation();
 
     const handleInputChange = useCallback((e) => {
         const value = e.target.value;
@@ -20,7 +21,8 @@ export default function Navbar({ onSearch }) {
 
                         <Link to="/books" className="navbar-item">All Books</Link>
                     </div>
-                    <div className="search-container">
+                    {location.pathname === '/books' &&
+                        <div className="search-container">
                         <input
                             type="text"
                             value={text}
@@ -39,6 +41,8 @@ export default function Navbar({ onSearch }) {
 
 
                     </div>
+                    }
+                    
                 </div>
             </nav>
         </>
