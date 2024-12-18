@@ -12,6 +12,10 @@ export default function Navbar({ onSearch }) {
         onSearch(value);
     }, [onSearch]);
 
+    const handleSearch = useCallback(()=>{
+        onSearch(text);
+    },[text, onSearch]);
+
     return (
         <>
             <nav className="navbar">
@@ -32,7 +36,7 @@ export default function Navbar({ onSearch }) {
                         />
 
                         <button
-                            onClick={() => searchBookFilter(text)}
+                            onClick={handleSearch}
                             className="search-button"
                         >
                             <i className="fas fa-search"></i>

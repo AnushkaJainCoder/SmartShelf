@@ -99,11 +99,12 @@ export default function SearchBook() {
         setsearch(false);
         if (value) {
             filterSuggestionBlock(value);
+            // searchBookFilter(value)
         } else {
             setSuggestions([]);
             setFilterBooks(allBooks);
         }
-    }, [filterSuggestionBlock, allBooks]);
+    }, [filterSuggestionBlock, allBooks, searchBookFilter]);
 
     return (
         <>
@@ -115,7 +116,7 @@ export default function SearchBook() {
                 </div>
             )}
 
-            {res && search && (
+            {res && search &&(
                 <div>
                     <p className="result">{result}</p>
                     <p className="bor"></p>
