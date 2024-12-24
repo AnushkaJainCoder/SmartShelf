@@ -40,10 +40,11 @@ export default function Shelf() {
 
     const renderBookSection = (title, books) => (
         <div className="shelf-section">
-            <div className="section-header">
-                <h2>{title}</h2>
+            <div className="section-header" >
+                
+                <h2 >{title}</h2>
             </div>
-            <p className="bor"></p>
+            {/* <p className="bor"></p> */}
             <div className="book-container">
                 {displayBooks(books)}
             </div>

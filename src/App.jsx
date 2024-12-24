@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import './App.css'
 import BookSearchPage from './Pages/BookSearchPage'
 import HomePage from "./Trash/Home";
@@ -8,22 +8,17 @@ import Shelf from "./Pages/Shelf";
 
 function App() {
   return (
-    <>
+    <div className="background-image">
       <BookProvider>
         <Router>
           <Routes>
-            <Route path='/books' element={<BookSearchPage />}>
-            </Route>
+            <Route path='/books' element={<BookSearchPage />} />
+            <Route path='/home' element={<Shelf />} />
+            <Route path='/' element={<Navigate to='/home' replace />} />
           </Routes>
-
-          <Routes>
-            <Route path='/home' element={<Shelf />}>
-            </Route>
-          </Routes>
-
         </Router>
       </BookProvider>
-    </>
+    </div>
 
   )
 }

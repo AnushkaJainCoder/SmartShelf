@@ -63,7 +63,7 @@ export default function SearchBook() {
         searchBookFilter(suggestion);
     }
 
-    const result = 'Result: ' + text;
+    const result = 'Search Result: ' + text;
 
     const filteredBooks = useMemo(() => (
         filterbooks.map((b) => {
@@ -116,7 +116,7 @@ export default function SearchBook() {
                 </div>
             )}
 
-            {res && search &&(
+            {res && search && (
                 <div>
                     <p className="result">{result}</p>
                     <p className="bor"></p>
